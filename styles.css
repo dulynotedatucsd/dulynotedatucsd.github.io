@@ -1,0 +1,45 @@
+body {
+    background-color:black;
+    color:white;
+    font-family: Roboto;
+}
+
+
+.music-container {
+    display: inline-block;
+    margin: 10px;
+}
+
+.music-card {
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-decoration: none;
+
+    transition-property: background-color, color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.music-card:hover {
+    background-color: rgb(255, 254, 254);
+    color: black;
+    transition-property: background-color, color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.music-card img {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.music-card p {
+    align-self: first baseline;
+    margin: 10px 0px 5px 0px;
+}
