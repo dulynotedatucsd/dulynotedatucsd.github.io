@@ -54,14 +54,17 @@ p {
 .music-card:hover {
     background-color: white;
     color: black;
+
     transition-property: background-color, color;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
 
 .music-card img {
-    width: 100%;
+    width: 500px;
+    height: 300px;
     border-radius: 20px;
+    overflow: hidden;
     -webkit-user-drag: none;;
 }
 
