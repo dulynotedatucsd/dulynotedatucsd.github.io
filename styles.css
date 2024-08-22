@@ -3,12 +3,30 @@ body {
     margin: 0 auto;
     background-color:black;
     color:white;
-    font-family: Roboto;
+    font-family: Poppins;
+}
+
+p {
+    font-size: 24px;
+    line-height: 36px;
 }
 
 .section-title {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 400;
+    margin: 12px 0px;
+}
+
+.group-name {
+    font-family: Caveat;
+    font-size: 100px;
+    color: #FFCA3A;
+    margin: 13px 0;
+}
+
+.intro-text {
+    font-size: 36px;
+    line-height: 54px;
 }
 
 .music-container {
@@ -23,20 +41,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(30,30,30);
+    background-color: rgba(82, 82, 82, 0.36);
     color: white;
     text-decoration: none;
 
     transition-property: background-color, color;
-    transition-duration: 0.25s;
+    transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
 
 .music-card:hover {
-    background-color: rgb(255, 254, 254);
+    background-color: white;
     color: black;
     transition-property: background-color, color;
-    transition-duration: 0.25s;
+    transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
 
@@ -107,19 +125,21 @@ body {
 
 .redirect-button {
     border: 1px solid white;
+    width: 144px;
+    height: 63px;
     border-radius: 30px;
     padding: 15px;
     text-decoration: none;
     color: white;
     transition-property: background-color, color;
-    transition-duration: 0.25s;
+    transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
 
 .redirect-button:hover {
-    background-color: rgb(210, 203, 5);
+    background-color: #FFCA3A;
     color: white;
     transition-property: background-color, color;
-    transition-duration: 0.25s;
+    transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
