@@ -18,6 +18,7 @@ p {
 }
 
 .group-name {
+    display: block;
     font-family: Caveat;
     font-size: 100px;
     color: #FFCA3A;
@@ -61,6 +62,7 @@ p {
 .music-card img {
     width: 100%;
     border-radius: 20px;
+    -webkit-user-drag: none;;
 }
 
 .music-card p {
@@ -111,6 +113,7 @@ p {
     max-width: 400px;
     max-height: 400px;
     margin: 30px;
+    -webkit-user-drag: none;
 }
 
 .photo-credits {
