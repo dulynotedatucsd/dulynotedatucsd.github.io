@@ -196,3 +196,21 @@ p {
     transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
+
+.followup {
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+.row {
+    display: flex;
+}
+
+.column {
+flex: 50%;
+}
+.email {
+    color:white;
+}
+
