@@ -1,6 +1,50 @@
 html {
     scroll-behavior: smooth;
 }
+.topnav {
+    position: fixed;
+    top: 0; left: 0;
+    transform: translate(calc(50vw - 50%));
+    background: linear-gradient(
+        to right,
+        rgba(255,255,255,0),
+        rgba(255,255,255,0.25) 25% 75%,
+        rgba(255,255,255,0));
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px; 
+}
+.topnav a{
+    border: 1px solid white;
+    width: 144px;
+    height: 63px; 
+    padding-top: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+    font-size: medium;
+    text-align: center;
+    
+}
+.topnav a:hover{
+    background-color: #FFCA3A;
+    color: white;
+    transition-property: background-color, color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+
+#page-button {
+    background-color: #FFCA3A;
+    color: white;
+}
+
 body {
     width: 90%;
     margin: 0 auto;
