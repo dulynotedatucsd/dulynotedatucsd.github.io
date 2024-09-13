@@ -13,7 +13,8 @@ html {
     border-radius: 30px;
     padding: 15px;
     text-align: center;
-    margin-top: 50px; 
+    margin-top: 50px;
+    z-index: 100000000;
 }
 .topnav a{
     border: 1px solid white;
@@ -51,6 +52,35 @@ body {
     background-color:black;
     color:white;
     font-family: Poppins;
+}
+
+#image-container {
+    position: relative;
+}
+
+#centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#logo {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+#est {
+    font-size: 18px;
+    line-height: 0px;
+}
+
+#book-button {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 45px;
 }
 
 p {
@@ -226,3 +256,21 @@ p {
     transition-duration: 300ms;
     transition-timing-function: ease-in;
 }
+
+.followup {
+    display: block;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+.row {
+    display: flex;
+}
+
+.column {
+flex: 50%;
+}
+.email {
+    color:white;
+}
+
