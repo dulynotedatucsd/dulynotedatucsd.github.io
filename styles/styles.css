@@ -46,8 +46,8 @@ html {
 }
 
 body {
-    width: 90%;
-    margin: 0 auto;
+    width: 70%;
+    margin: auto;
     background-color:black;
     color:white;
     font-family: Poppins;
@@ -64,6 +64,26 @@ p {
     margin: 12px 0px;
 }
 
+.center-image{
+    max-width: 70%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.center-image-container{
+    display: grid;
+}
+
+.copyright {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.6vw + 0.6vh);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
 .group-name {
     display: block;
     font-family: Caveat;
@@ -75,6 +95,16 @@ p {
 .intro-text {
     font-size: 36px;
     line-height: 54px;
+}
+
+.footer {
+    background-color: white;
+}
+
+.logo-left{
+    float:left;
+    width: 10%;
+    padding-left: 2%;
 }
 
 .music-container {
