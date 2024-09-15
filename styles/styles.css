@@ -13,7 +13,7 @@ html {
     border-radius: 30px;
     padding: 15px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     z-index: 100000000;
 }
 .topnav a{
@@ -29,7 +29,7 @@ html {
     transition-property: background-color, color;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
-    font-size: medium;
+    font-size: 80%;
     text-align: center;
     
 }
@@ -47,15 +47,25 @@ html {
 }
 
 body {
-    width: 70%;
-    margin: auto;
     background-color:black;
     color:white;
     font-family: Poppins;
 }
 
+.main-body {
+    width: 70%;
+    margin: auto;
+}
+
 #image-container {
     position: relative;
+    width: 85%;
+    margin: auto;
+}
+
+#landing-image {
+    width: 100%;
+    border-radius: 2%;
 }
 
 #centered {
@@ -67,18 +77,18 @@ body {
 }
 
 #logo {
-    width: 350px;
+    width: 50%;
     display: block;
     margin: auto;
 }
 
 #est {
-    font-size: 18px;
+    font-size: 90%;
     line-height: 0px;
 }
 
 #book-button {
-    font-size: 20px;
+    font-size: 100%;
     padding: 20px;
     border-radius: 45px;
 }
