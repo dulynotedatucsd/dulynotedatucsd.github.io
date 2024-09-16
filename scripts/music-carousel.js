@@ -2,6 +2,7 @@ const carousel = document.getElementById('musicCarousel');
 const nextBtn = document.getElementById('nextBtn');
 const prevBtn = document.getElementById('prevBtn');
 var coll = document.getElementsByClassName("collapsible");
+const buttons = document.querySelectorAll(".collapsible");
 var i;
 
 const scrollAmount = 550;
@@ -25,3 +26,9 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+buttons.forEach(button => {
+    button.addEventListener("click", function() {
+        this.classList.toggle("clicked");
+    });
+});
