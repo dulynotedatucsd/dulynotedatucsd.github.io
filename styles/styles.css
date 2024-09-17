@@ -312,8 +312,6 @@ flex: 50%;
 .active, .collapsible:hover {
     background-color: white;
     color : black;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in;
 }
 
 .content {
