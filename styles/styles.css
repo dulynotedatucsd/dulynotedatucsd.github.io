@@ -52,7 +52,7 @@ body {
     font-family: Poppins;
 }
 
-.main-body {
+.main-body, main {
     width: 70%;
     margin: auto;
 }
