@@ -398,3 +398,85 @@ flex: 50%;
         width : 30vw;
     }
 }
+
+.audition-container {
+    text-align: center;
+}
+
+.audition-list {
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.audition-title {
+    font-weight: bold;
+}
+
+.audition-note {
+    display: inline-block;
+    font-style: italic;
+}
+
+.audition-note span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.faq {
+    width: 90%;
+    margin: auto;
+}
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.faq-question {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.faq-answer {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.faq-extra {
+    width: 50%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.faq-header {
+    font-size: 36px;
+}
+
+.faq-bold {
+    font-weight: bold;
+}
+
+.redirect-icon {
+    transform: scale(0.8);
+}
+
+.secondary-color {
+    color: #FFCA3A
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.audition-date {
+    font-size: 20px;
+
+}
+
+a {
+    color: white;
+}
