@@ -350,11 +350,13 @@ flex: 50%;
 .table-image {
     aspect-ratio: 2/3;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .table-element {
     text-align: center;
     font-size: 0.75em;
+    margin-bottom: 5px;
 }
 
 .support-paragraph {
@@ -363,8 +365,12 @@ flex: 50%;
     width: 60%;
 }
 
+.table-style {
+    display: grid;
+}
+
 @media (min-width: 1200px) {
-    .content {
+    .table-style {
         grid-template-columns: repeat(4, 1fr);
     }
     .table-image {
@@ -373,7 +379,7 @@ flex: 50%;
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
-    .content {
+    .table-style {
         grid-template-columns: repeat(3, 1fr);
     }
     .table-image {
@@ -382,7 +388,7 @@ flex: 50%;
 }
 
 @media (min-width: 500px) and (max-width: 899px) {
-    .content {
+    .table-style {
         grid-template-columns: repeat(2, 1fr);
     }
     .table-image {
@@ -391,12 +397,20 @@ flex: 50%;
 }
 
 @media (max-width: 499px) {
-    .content {
+    .table-style {
         grid-template-columns: 1fr;
     }
     .table-image {
-        width : 30vw;
+        width : 60vw;
     }
+}
+
+.table-name {
+    font-weight: bold;
+}
+
+.grade {
+    display: block !important;
 }
 
 .audition-container {
