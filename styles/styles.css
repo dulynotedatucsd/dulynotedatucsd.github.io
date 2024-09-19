@@ -50,6 +50,7 @@ body {
     background-color:black;
     color:white;
     font-family: Poppins;
+    margin: 0;
 }
 
 .main-body, main {
