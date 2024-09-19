@@ -60,13 +60,12 @@ body {
 
 #landing-page {
     position: relative;
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 
 #landing-image {
     width: 100%;
-    border-radius: 2%;
 }
 
 #centered {
