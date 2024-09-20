@@ -123,14 +123,14 @@ p {
 .group-name {
     display: block;
     font-family: Caveat;
-    font-size: 100px;
+    font-size: min(10vw, 100px);
     color: #FFCA3A;
-    margin: 13px 0;
+    margin: min(1.3vw, 13px) 0;
 }
 
 .intro-text {
-    font-size: 36px;
-    line-height: 54px;
+    font-size: min(3.2vw, 36px);
+    line-height: min(4.8vw, 54px);
 }
 
 .footer {
@@ -444,9 +444,27 @@ padding: 20px;
 }
 .faq-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
+
+@media (max-width: 800px) {
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    .faq-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1201px) {
+    .faq-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 
 .faq-question {
     font-weight: bold;
