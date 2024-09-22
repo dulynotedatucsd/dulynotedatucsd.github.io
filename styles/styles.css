@@ -18,7 +18,7 @@ html {
     z-index: 100000000;
 }
 .topnav a{
-    font-size: clamp(10px, 0.72vw, 24px);
+    font-size: 80%;
     border: 1px solid white;
     padding-top: 30px;
     border-radius: 30px;
@@ -33,16 +33,27 @@ html {
     transition: margin 0.8s ease;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .topnav a {
-        margin: 0 5px; /* Reduce the margin as the screen shrinks */
+        font-size: 70%;
+        margin: 0 10px; /* Reduce the margin as the screen shrinks */
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
     .topnav a {
-        padding: 5px;
+        font-size: 60%;
+        margin: 0 5px; /* Further reduce the margin for very small screens */
+    }
+}
+@media (max-width: 750px) {
+    .topnav a {
         margin: 0 2.5px; /* Further reduce the margin for very small screens */
+    }
+}
+@media (max-width: 600px) {
+    .topnav a {
+        margin: 0 0px; /* Further reduce the margin for very small screens */
     }
 }
 
