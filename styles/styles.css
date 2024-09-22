@@ -87,12 +87,31 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    transition: top 0.8s ease;
+}
+@media (max-width: 950px) {
+    #centered {
+        top: 45%; /* Reduce the margin as the screen shrinks */
+    }
+}
+@media (max-width: 600px) {
+    #centered {
+        top: 55%; /* Reduce the margin as the screen shrinks */
+    }
 }
 
 #logo {
-    width: 50%;
+    width: 70%;
+    height: auto;
     display: block;
     margin: auto;
+    transition: width 1s ease;
+}
+
+@media (max-width: 1780px) {
+    #logo {
+        width: 50%/* Reduce the margin as the screen shrinks */
+    }
 }
 
 #est {
