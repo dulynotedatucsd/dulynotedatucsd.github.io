@@ -479,6 +479,13 @@ p {
     line-height: 36px;
 }
 
+.audition-list li {
+    margin-bottom: 40px;
+}
+.auditions-list li:last-child {
+    margin-bottom: 0;
+}
+
 .audition-title {
     font-weight: bold;
 }
