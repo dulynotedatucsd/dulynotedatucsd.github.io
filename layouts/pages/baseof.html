@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{/*  {{- partial "head/head.html" . -}}  */}}
+  <body>
+    {{/*  {{- partial "header/header.html" . -}}  */}}
+    {{/*  {{ if .IsHome }}  */}}
+      {{/*  {{- partial "landing-image/landing-image.html" . -}}  */}}
+    {{/*  {{- end}}  */}}
+    <main>
+      {{- block "main" .}}{{- end}}
+    </main>
+    {{/*  {{- partial "footer/footer.html" . -}}  */}}
+  </body>
+</html>
