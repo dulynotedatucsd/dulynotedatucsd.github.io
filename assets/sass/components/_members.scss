@@ -1,0 +1,106 @@
+@use "abstracts/colors";
+@use "abstracts/mixins";
+
+.content {
+  padding: 0 18px;
+  background-color: colors.$PRIMARY_COLOR;
+  border-radius: 0px 0px 10px 10px;
+  color : colors.$BACKGROUND_COLOR;
+  margin-bottom: 10px;
+  display: none;
+  gap: 10px;
+}
+
+.active {
+  background-color: colors.$PRIMARY_COLOR;
+  color: colors.$BACKGROUND_COLOR;
+
+  &::after {
+    content: "\2212";
+    color: colors.$BACKGROUND_COLOR;
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+.collapsible {
+  background-color: colors.$BACKGROUND_COLOR;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid colors.$PRIMARY_COLOR;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family: Poppins;
+  color: colors.$PRIMARY_COLOR;
+  margin-bottom: 10px;
+
+  &::after {
+    content: '\002B';
+    float: right;
+    margin-left: 5px;
+    font-size: 15px;
+    color: colors.$PRIMARY_COLOR;
+  }
+
+  &:hover {
+    background-color: colors.$PRIMARY_COLOR;
+    color: colors.$BACKGROUND_COLOR;
+  }
+
+  &.clicked {
+    background-color: colors.$PRIMARY_COLOR;
+    color: colors.$BACKGROUND_COLOR;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.table-image {
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 10px;
+
+  @include mixins.respond(small) {
+    width: 30vw;
+  }
+
+  @include mixins.respond(medium) {
+    width: 20vw;
+  }
+
+  @include mixins.respond(large) {
+    width: 14vw;
+  }
+}
+
+.table-style {
+  display: grid;
+
+  @include mixins.respond(small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include mixins.respond(medium) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include mixins.respond(large) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.table-element {
+  text-align: center;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
+
+.table-name {
+  font-weight: bold;
+}
+
+.grade {
+  display: block !important;
+}

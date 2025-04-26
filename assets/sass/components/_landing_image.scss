@@ -1,0 +1,54 @@
+#landing-page {
+  position: relative;
+  width: 100%;
+  margin: 0 0 88px 0;
+}
+
+#landing-image {
+  width: 100%;
+}
+
+#centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: top 0.8s ease;
+
+  @media (max-width: 950px) {
+    top: 45%;
+  }
+
+  @media (max-width: 600px) {
+    top: 55%;
+  }
+}
+
+#logo {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
+  transition: width 1s ease;
+
+  @media (max-width: 1780px) {
+    width: 50%;
+  }
+}
+
+#est {
+  font-size: 90%;
+  line-height: 0px;
+}
+
+#book-button {
+  font-size: clamp(14px, 1vw, 24px);
+  padding: 20px;
+  border-radius: 45px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 36px;
+}

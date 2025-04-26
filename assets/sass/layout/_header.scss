@@ -1,0 +1,61 @@
+@use "abstracts/colors";
+
+.topnav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 0; left: 0;
+  transform: translate(calc(50vw - 50%));
+  background: linear-gradient(
+      to right,
+      #ffffff00,
+      rgba(255,255,255,0.25) 25% 75%,
+      rgba(255,255,255,0));
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 25px;
+  z-index: 100000000;
+}
+
+.topnav a{
+  font-size: 80%;
+  border: 1px solid colors.$PRIMARY_COLOR;
+  padding-top: 30px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  transition-property: background-color, color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+  text-align: center;
+  transition: margin 0.8s ease;
+
+  &:hover {
+    background-color: colors.$SECONDARY_COLOR;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 70%;
+    margin: 0 10px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 60%;
+    margin: 0 5px;
+  }
+
+  @media (max-width: 750px) {
+    margin: 0 2.5px;
+  }
+
+  @media (max-width: 600px) {
+    margin: 0 0px;
+  }
+}
+
+// TODO: Page Button

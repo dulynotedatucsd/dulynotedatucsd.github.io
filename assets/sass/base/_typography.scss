@@ -1,0 +1,19 @@
+@use "abstracts/colors";
+
+.section-title {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 12px 0px;
+}
+
+.group-name {
+  display: block;
+  font-family: Caveat;
+  font-size: min(10vw, 100px);
+  color: colors.$SECONDARY_COLOR;
+}
+
+.intro-text {
+  font-size: min(3.2vw, 36px);
+  line-height: min(4.8vw, 54px);
+}

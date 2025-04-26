@@ -3,9 +3,9 @@
   {{- partial "header/head.html" . -}}
   <body>
     {{- partial "header/header.html" . -}}
-    {{/*  {{ if .IsHome }}  */}}
-      {{/*  {{- partial "landing-image/landing-image.html" . -}}  */}}
-    {{/*  {{- end}}  */}}
+    {{ if .IsHome }}
+      {{- partial "landing/image.html" . -}}
+    {{- end}}
     <main>
       {{- block "main" .}}{{- end}}
     </main>

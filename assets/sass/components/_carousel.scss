@@ -1,0 +1,40 @@
+@use "abstracts/colors";
+@use "abstracts/mixins";
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  align-items: center;
+}
+
+.carousel-button {
+  background: none;
+  margin: 0 10px;
+  border: none;
+  color: colors.$PRIMARY_COLOR;
+  font-size: 50px;
+  height: 100%;
+  @include mixins.no-select;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.carousel-img {
+  scroll-snap-align: start;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 30px;
+  @include mixins.no-drag;
+}
