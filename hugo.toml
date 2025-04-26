@@ -1,3 +1,5 @@
 baseURL = 'https://ucsddulynoted.github.io/duly-site/'
 languageCode = 'en-us'
 title = 'Duly Noted'
+
+disableKinds = ["taxonomy"]
