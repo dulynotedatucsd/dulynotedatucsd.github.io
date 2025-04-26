@@ -1,0 +1,30 @@
+@use "abstracts/colors";
+
+.copyright {
+  color: colors.$BACKGROUND_COLOR;
+  padding: 4% 17%;
+  text-align: center;
+}
+
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.logo-left{
+  width: 10%;
+  padding-left: 4%;
+  margin-right: 10%;
+}
+
+.socials {
+    text-align: right;
+    padding-right: 4%;
+}
+
+.social {
+    width : 10%;
+}
