@@ -1,0 +1,11 @@
+<div class="content">
+  <div class="table-style">
+    {{ range .Site.Data.members.alumni }}
+      <div class="table-element">
+        <img class="table-image" src="{{ .path }}">
+        <div class="table-name">{{ .name }}</div>
+        <div>{{ .voice }} | {{ .class }}</div>
+      </div>
+    {{ end }}
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="content">
+  {{ range .Site.Data.members.current }}
+    {{ if and .members (gt (len .members) 0) }}
+      <h3>{{ .year }}</h3>
+      <div class="table-style">
+        {{ range .members }}
+          <div class="table-element">
+            <img class="table-image" src="{{ .path }}">
+            <div class="table-name">{{ .name }}</div>
+            <div>{{ .voice }}</div>
+            <div>{{ .major }}</div>
+            {{ with .minor }}
+              <div>{{ . }}</div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }}
+</div>
