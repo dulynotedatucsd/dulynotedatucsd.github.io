@@ -2,7 +2,7 @@
   <div class="table-style">
     {{ range .Site.Data.members.alumni }}
       <div class="table-element">
-        <img class="table-image" src="{{ .path }}">
+        <img class="table-image" src="/images/members/alumni/{{ .path }}">
         <div class="table-name">{{ .name }}</div>
         <div>{{ .voice }} | {{ .class }}</div>
       </div>

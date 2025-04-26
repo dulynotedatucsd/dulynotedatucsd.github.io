@@ -1,23 +1,53 @@
 - year: Freshmen
-  members: []
+  members:
+    - name: "Apolo Madrigal"
+      voice: "Tenor & Beatbox"
+      major: "Political Science Major"
+      path: Apolo_Madrigal.png
+
+    # - name: "Emilio Roque"
+    #   voice: "Baritone"
+    #   major: "Political Science: Public Law Major"
+    #   path: Emilio_Roque.png
+
+    - name: "Isaac Kim"
+      voice: "Tenor"
+      major: "Applied Math Major"
+      path: Isaac_Kim.png
+    
+    - name: "Tavishi Raghunathan"
+      voice: "Soprano"
+      major: "Cognitive Science and ICAM Visual Art Major"
+      path: Tavishi_Raghunathan.png
 
 - year: Sophomores
   members:
     - name: "Allison Wang"
       voice: "Soprano"
       major: "Computer Science Major"
-      path: /images/members/current/Allison_Wang.webp
+      path: Allison_Wang.png
+
+    - name: "Andrew Jung"
+      voice: "Bass"
+      major: "Electrical Engineering Major"
+      path: "Andrew_Jung.png"
+
+    - name: "Emily Otkupman"
+      voice: "Alto"
+      major: "Psychology Major"
+      minor: "Theatre Minor"
+      path: Emily_Otkupman.png
 
     - name: "Jesse Wu"
       voice: "Bass"
       major: "Political Science Major"
       minor: "Japanese Studies Minor"
-      path: /images/members/current/Jesse_Wu.webp
+      path: Jesse_Wu.webp
 
     - name: "Linnea Cooley"
       voice: "Mezzo"
       major: "Marine Biology Major"
-      path: /images/members/current/Linnea_Cooley.webp
+      path: Linnea_Cooley.png
 
 - year: Juniors
   members:
@@ -25,23 +55,29 @@
       voice: "Baritone"
       major: "Computer Science Major"
       minor: "Math Minor"
-      path: /images/members/current/Cedric-James_David.webp
+      path: Cedric-James_David.png
 
     - name: "Camille Manalo"
       voice: "Alto"
       major: "Cognitive Science: Design and Interaction Major"
-      path: /images/members/current/Camille_Manalo.webp
+      path: Camille_Manalo.png
 
     - name: "Emma Kalway"
       voice: "Mezzo"
       major: "Political Science: Public Law Major"
       minor: "Business Economics and Law & Society Minor"
-      path: /images/members/current/Emma_Kalway.webp
+      path: Emma_Kalway.png
 
     - name: "Lee"
       voice: "Baritone"
       major: "Environmental Systems Major"
-      path: /images/members/current/Lee.webp
+      path: Lee.png
+
+    - name: "Nina Ardalan"
+      voice: "Mezzo & Beatbox"
+      major: "Communications Major"
+      path: Nina_Ardalan.png
+
 
 - year: Seniors
   members:
@@ -49,25 +85,25 @@
       voice: "Soprano"
       major: "Global Health Major"
       minor: "Biology Minor"
-      path: /images/members/current/Annette_Lee.webp
+      path: Annette_Lee.png
 
     - name: "Audrey Gomez"
       voice: "Alto"
       major: "Music and Education Studies Major"
-      path: /images/members/current/Audrey_Gomez.webp
+      path: Audrey_Gomez.png
 
     - name: "Derek Oyama"
       voice: "Bass & Beatbox"
       major: "Business Economics Major"
-      path: /images/members/current/Derek_Oyama.webp
+      path: Derek_Oyama.png
 
     - name: "Justin Lagala"
       voice: "Bass"
       major: "Biotechnology Major"
       minor: "Physics Minor"
-      path: /images/members/current/Justin_Lagala.webp
+      path: Justin_Lagala.png
 
     - name: "Parsa Farnad"
       voice: "Tenor & Beatbox"
       major: "General Biology and Theatre Major"
-      path: /images/members/current/Parsa_Farnad.webp
+      path: Parsa_Farnad.png
