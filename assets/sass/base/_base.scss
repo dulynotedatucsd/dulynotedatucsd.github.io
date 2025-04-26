@@ -1,0 +1,17 @@
+@use "abstracts/colors";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  color: colors.$PRIMARY_COLOR;
+  background-color: colors.$BACKGROUND_COLOR;
+  font-family: Poppins;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+}

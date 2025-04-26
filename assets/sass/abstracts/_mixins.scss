@@ -1,0 +1,50 @@
+@mixin no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+@mixin no-drag {
+  pointer-events: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+  -khtml-user-grad: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == small {
+    @media (min-width: 500px) and (max-width: 899px) {
+      @content;
+    }
+  } @else if $breakpoint == medium {
+    @media (min-width: 900px) and (max-width: 1199px) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+@mixin responsive-grid($breakpoint) {
+  @if $breakpoint == small {
+    @media (max-width: 800px) {
+      @content;
+    }
+  } @else if $breakpoint == medium {
+    @media (min-width: 801px) and (max-width: 1200px) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media (min-width: 1201px) {
+      @content;
+    }
+  }
+}

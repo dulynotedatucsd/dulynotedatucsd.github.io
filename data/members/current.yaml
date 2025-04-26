@@ -1,0 +1,73 @@
+- year: Freshmen
+  members: []
+
+- year: Sophomores
+  members:
+    - name: "Allison Wang"
+      voice: "Soprano"
+      major: "Computer Science Major"
+      path: /images/members/current/Allison_Wang.webp
+
+    - name: "Jesse Wu"
+      voice: "Bass"
+      major: "Political Science Major"
+      minor: "Japanese Studies Minor"
+      path: /images/members/current/Jesse_Wu.webp
+
+    - name: "Linnea Cooley"
+      voice: "Mezzo"
+      major: "Marine Biology Major"
+      path: /images/members/current/Linnea_Cooley.webp
+
+- year: Juniors
+  members:
+    - name: "Cedric-James David"
+      voice: "Baritone"
+      major: "Computer Science Major"
+      minor: "Math Minor"
+      path: /images/members/current/Cedric-James_David.webp
+
+    - name: "Camille Manalo"
+      voice: "Alto"
+      major: "Cognitive Science: Design and Interaction Major"
+      path: /images/members/current/Camille_Manalo.webp
+
+    - name: "Emma Kalway"
+      voice: "Mezzo"
+      major: "Political Science: Public Law Major"
+      minor: "Business Economics and Law & Society Minor"
+      path: /images/members/current/Emma_Kalway.webp
+
+    - name: "Lee"
+      voice: "Baritone"
+      major: "Environmental Systems Major"
+      path: /images/members/current/Lee.webp
+
+- year: Seniors
+  members:
+    - name: "Annette Lee"
+      voice: "Soprano"
+      major: "Global Health Major"
+      minor: "Biology Minor"
+      path: /images/members/current/Annette_Lee.webp
+
+    - name: "Audrey Gomez"
+      voice: "Alto"
+      major: "Music and Education Studies Major"
+      path: /images/members/current/Audrey_Gomez.webp
+
+    - name: "Derek Oyama"
+      voice: "Bass & Beatbox"
+      major: "Business Economics Major"
+      path: /images/members/current/Derek_Oyama.webp
+
+    - name: "Justin Lagala"
+      voice: "Bass"
+      major: "Biotechnology Major"
+      minor: "Physics Minor"
+      path: /images/members/current/Justin_Lagala.webp
+
+    - name: "Parsa Farnad"
+      voice: "Tenor & Beatbox"
+      major: "General Biology and Theatre Major"
+      path: /images/members/current/Parsa_Farnad.webp

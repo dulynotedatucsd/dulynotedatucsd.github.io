@@ -1,0 +1,23 @@
+@use "abstracts/colors";
+
+.redirect {
+  margin: 50px;
+  text-align: center;
+}
+
+.redirect-button {
+  border: 1px solid colors.$PRIMARY_COLOR;
+  width: 144px;
+  height: 63px;
+  border-radius: 30px;
+  padding: 15px;
+  text-decoration: none;
+  color: colors.$PRIMARY_COLOR;
+  transition-property: background-color, color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+
+  &:hover {
+    background-color: colors.$SECONDARY_COLOR;
+  }
+}
