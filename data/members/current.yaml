@@ -5,10 +5,10 @@
       major: "Political Science Major"
       path: Apolo_Madrigal.png
 
-    # - name: "Emilio Roque"
-    #   voice: "Baritone"
-    #   major: "Political Science: Public Law Major"
-    #   path: Emilio_Roque.png
+    - name: "Emilio Roque"
+      voice: "Baritone"
+      major: "Political Science: Public Law Major"
+      path: Emilio_Roque.png
 
     - name: "Isaac Kim"
       voice: "Tenor"
@@ -42,7 +42,7 @@
       voice: "Bass"
       major: "Political Science Major"
       minor: "Japanese Studies Minor"
-      path: Jesse_Wu.webp
+      path: Jesse_Wu.png
 
     - name: "Linnea Cooley"
       voice: "Mezzo"
