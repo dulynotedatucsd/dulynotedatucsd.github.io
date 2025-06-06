@@ -4,6 +4,14 @@ title = 'Duly Noted'
 
 disableKinds = ["taxonomy"]
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[params.auditions]
+    stauts = "CLOSED UNTIL FALL 2025"
+
 [params.social.instagram]
     handle = "@ucsddulynoted"
     url = "https://www.instagram.com/ucsddulynoted/"

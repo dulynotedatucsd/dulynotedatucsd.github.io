@@ -1,0 +1,42 @@
+- icon: "lighton.svg"
+  question: "Any tips for my audition?"
+  answer: >
+    Prepare by practicing your song until you feel confident. Record yourself,
+    listen back, and make adjustments. Focus on tuning, vocal support, and
+    control.
+
+- icon: "schedule.svg"
+  question: "Can I reschedule?"
+  answer: >
+    If you reserved an audition slot, but can no longer make it, please message
+    us on Instagram {{< socials/instagram >}} or email {{< socials/email >}} to
+    reschedule and we'll be happy to accomodate you!
+
+- icon: "bursts.svg"
+  question: "Can I audition for multiple groups?"
+  answer: >
+    You can audition for as many groups as you want! We also encourage it to
+    find the best for you! If you are accepted into multiple groups, however,
+    you can only <u>choose one.</u>
+
+- icon: "ipod.svg"
+  question: "Can I have a backing track?"
+  answer: >
+    No. Any form of accompaniment can make it difficult for us to hear your
+    timbre and tone. Although it is okay for you to read lyrics, we strongly
+    prefer you have them memorized. We can also provide your starting pitch if
+    needed.
+
+- icon: "reset.svg"
+  question: "If I didn't make it, can I try out again next year?"
+  answer: >
+    Absolutely! We welcome return auditonees and appreciate your enthusiasm.
+    Every audition is a new opportunity, so feel free to give it another shot!
+
+- icon: "time.svg"
+  question: "If I make it into Duly, what's the time commitment like?"
+  answer: >
+    Expect to devote about 9 hours per week: two 3-hour full group rehearsals
+    and one 2-hour sectional. Times vary each quarter based on members'
+    schedules. Extra time may be needed during competition years for gigs, and
+    recording sessions.
