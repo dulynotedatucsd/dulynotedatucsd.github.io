@@ -4,32 +4,29 @@ type: "pages"
 ---
 <!-- Landing Page -->
 
-  <!-- About -->
-  <h1 class="section-title">
-    HI THERE, WE'RE
-    <span class="group-name">duly noted!</span>
-  </h1>
-  <p class="intro-text">
-    Founded in Fall 2012, at University of California, San Diego, we are one of the a cappella groups on campus. Together, we sing and perform, united
-    by a love of music.
-  </p>
-  <div class="redirect">
-    <a class="redirect-button" href="/about">Learn More</a>
-  </div>
-  <!-- Music -->
-  <h1 class="section-title" id="music">FEATURED MUSIC</h1>
-  {{< carousels/music >}}
-  <div class="redirect">
-    <a class="redirect-button" href="https://youtube.com/@ucsddulynoted">View More</a>
-  </div>
-  <!-- Members -->
-  <h1 class="section-title" id="members">MEET OUR MEMBERS</h1>
-  <button type="button" class="collapsible">Executive Board '24-'25</button>
-  {{< members/executive >}}
-  <button type="button" class="collapsible">Current Members '24-'25</button>
-  {{< members/current >}}
-  <button type="button" class="collapsible" id="alumni">Alumni</button>
-  {{< members/alumni >}}
+<!-- About -->
+<h1 class="section-title">
+  HI THERE, WE'RE
+  <span class="group-name">duly noted!</span>
+</h1>
+<p class="intro-text">
+  Founded in Fall 2012, at University of California, San Diego, we are one of the a cappella groups on campus. Together, we sing and perform, united
+  by a love of music.
+</p>
+{{< buttons/learn >}}
+
+<!-- Music -->
+<h1 class="section-title" id="music">FEATURED MUSIC</h1>
+{{< carousels/music >}}
+{{< buttons/youtube >}}
+<!-- Members -->
+<h1 class="section-title" id="members">MEET OUR MEMBERS</h1>
+<button type="button" class="collapsible">Executive Board '24-'25</button>
+{{< members/executive >}}
+<button type="button" class="collapsible">Current Members '24-'25</button>
+{{< members/current >}}
+<button type="button" class="collapsible">Alumni</button>
+{{< members/alumni >}}
 
 <!-- Auditions -->
 <h1 class="section-title" id="auditions">AUDITIONS <span class="audition-date">(CLOSED UNTIL FALL 2025)</span></h1>
@@ -46,8 +43,8 @@ type: "pages"
       Auditions will last ~16 minutes and slots are available
       throughout the dates and time periods shown on Calendly.
       If you cannot make any of the available slots, please contact us
-      through Instagram <a href="https://www.instagram.com/ucsddulynoted/">@ucsddulynoted</a>
-      or email <a href="mailto:ucsddulynoted@gmail.com">ucsddulynoted@gmail.com</a>
+      through Instagram {{< socials/instagram >}}
+      or email {{< socials/email >}}
       and we will try our best to accommodate you.<br>
       <i>*NOTE:
         Locations will be posted daily on our Instagram.
@@ -100,7 +97,7 @@ type: "pages"
     <div class="faq-container">
       <div class="faq-icon"><img src="images/icons/schedule.svg"></div>
       <div class="faq-question">Can I reschedule?</div>
-      <div class="faq-answer">If you reserved an audition slot, but can no longer make it, please message us on Instagram <a href="https://www.instagram.com/ucsddulynoted/">@ucsddulynoted</a> or email <a href="mailto:ucsddulynoted@gmail.com">ucsddulynoted@gmail.com</a> to reschedule and we'll be happy to accomodate you!</div>
+      <div class="faq-answer">If you reserved an audition slot, but can no longer make it, please message us on Instagram {{< socials/instagram >}} or email {{< socials/email >}} to reschedule and we'll be happy to accomodate you!</div>
     </div>
     <div class="faq-container">
       <div class="faq-icon"><img src="images/icons/bursts.svg"></div>
@@ -126,54 +123,44 @@ type: "pages"
 </div>
   
 <div class="faq-extra">
-  <p class="faq-bold faq-header">Can't find the answer you're looking for?</p>
-  <p>Ask us through the options below and we'll get back to you as soon as we can!</p>
-  <div class="faq-redirect">
-    <div class="faq-bold">Instagram <a href="https://www.instagram.com/ucsddulynoted/"><img class="redirect-icon" src="images/icons/upright.svg"></a></div>
-    <div>@ucsddulynoted</div>
-  </div>
-  <div class="faq-redirect">
-    <div class="faq-bold">Email <a href="mailto:ucsddulynoted@gmail.com"><img class="redirect-icon" src="images/icons/upright.svg"></a></div>
-    <div>ucsddulynoted@gmail.com</div>
-  </div>
+  {{< socials/instagram-faq >}}
+  {{< socials/email-faq >}}
   <p class="faq-bold faq-header">We can't wait to hear from you!</p>
 </div>
 
   
 <!-- Contact -->
-  <h1 class="section-title" id="contact">
-    GET IN TOUCH WITH US
-  </h1>
-  <h2>Interested in booking <span class="secondary-color">Duly Noted</span> for your event?</h2>
-  <div class="row">
-    <div class="column">
-      <p>Duly Noted delivers
-      <span style="text-decoration: underline;">exceptional performances</span>
-        tailored to any event, and is available to both public and private arrangements.
-      </p>
-    </div>
-    <div class="column">
-      <p>For specific inquiries, please email
-        <a class="email" href="mailto:ucsddulynoted@gmail.com">ucsddulynoted@gmail.com</a>
-        including the relevant information in your message. 
-        <span style="font-style: italic;">
-          Please include the date, time, and location of the event so that we can best gauge our availability.
-        </span>
-      </p>
-    </div>
+<h1 class="section-title" id="contact">
+  GET IN TOUCH WITH US
+</h1>
+<h2>Interested in booking <span class="secondary-color">Duly Noted</span> for your event?</h2>
+<div class="row">
+  <div class="column">
+    <p>Duly Noted delivers
+    <span style="text-decoration: underline;">exceptional performances</span>
+      tailored to any event, and is available to both public and private arrangements.
+    </p>
   </div>
-  <div style="text-align: center; font-size: 31px;">We look forward to working with you!</div>
-  <!-- Support -->
-  <h2 class="section-title" id="support">SUPPORT US</h1>
-  <div class="center-image-container">
-    <img class="center-image" src="images/group_photos/support.webp">
+  <div class="column">
+    <p>For specific inquiries, please email
+    {{< socials/email >}} 
+      including the relevant information in your message. 
+      <span style="font-style: italic;">
+        Please include the date, time, and location of the event so that we can best gauge our availability.
+      </span>
+    </p>
   </div>
-  <p class="support-paragraph">
-    As a student-run a cappella group, we heavily rely on 
-    donations and fundraising to continue what we love to do–sing! 
-    Your support helps cover performance costs, competitions, gig attire, and more.
-  </p>
-  <div class="redirect">
-    <a class="redirect-button" href="https://www.venmo.com/u/UcsdDulyNoted
-  ">Donate Now</a>
-  </div>
+</div>
+<div style="text-align: center; font-size: 31px;">We look forward to working with you!</div>
+
+<!-- Support -->
+<h2 class="section-title" id="support">SUPPORT US</h1>
+<div class="center-image-container">
+  <img class="center-image" src="images/group_photos/support.webp">
+</div>
+<p class="support-paragraph">
+  As a student-run a cappella group, we heavily rely on 
+  donations and fundraising to continue what we love to do–sing! 
+  Your support helps cover performance costs, competitions, gig attire, and more.
+</p>
+{{< buttons/donate >}}

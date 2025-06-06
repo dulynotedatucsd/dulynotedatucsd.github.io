@@ -3,3 +3,18 @@ languageCode = 'en-us'
 title = 'Duly Noted'
 
 disableKinds = ["taxonomy"]
+
+[params.social.instagram]
+    handle = "@ucsddulynoted"
+    url = "https://www.instagram.com/ucsddulynoted/"
+[params.social.email]
+    handle = "ucsddulynoted@gmail.com"
+    url = "mailto:ucsddulynoted@gmail.com"
+[params.social.tiktok]
+    url = "https://www.tiktok.com/@ucsddulynoted"
+[params.social.facebook]
+    url = "https://www.facebook.com/ucsddulynoted"
+[params.social.youtube]
+    url = "https://www.youtube.com/@ucsddulynoted"
+[params.social.donate]
+    url = "https://www.venmo.com/u/UcsdDulyNoted"

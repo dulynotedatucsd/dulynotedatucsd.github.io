@@ -1,0 +1,14 @@
+{{ $social := .social }}
+{{ $url := .url }}
+{{ $handle := .handle }}
+<div class="faq-redirect">
+  <div>
+    <b>{{ $social }}</b>
+    <a href="{{ $url }}">
+      <img class="redirect-icon" src="images/icons/upright.svg">
+    </a>
+  </div>
+  <div>
+    {{ $handle }}
+  </div>
+</div>
