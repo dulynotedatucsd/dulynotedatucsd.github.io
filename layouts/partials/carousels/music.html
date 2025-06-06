@@ -1,0 +1,14 @@
+<div class="carousel-container">
+  <button class="carousel-button" id="prevBtn">&#9001;</button>
+  <div class="carousel" id="musicCarousel">
+    {{ range .Site.Data.carousels.music }}
+      <div class="music-container">
+        <a class="music-card" href="{{ .url }}">
+          <img src="images/music/{{ .image }}" alt="{{ .title }}">
+          <p>"{{ .title }} - {{ .artist }}</p>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+  <button class="carousel-button" id="nextBtn">&#9002;</button>
+</div>

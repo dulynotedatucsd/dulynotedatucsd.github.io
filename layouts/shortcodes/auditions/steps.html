@@ -1,0 +1,5 @@
+<ol class="audition-list">
+  {{ range .Site.Data.auditions.steps }}
+    {{ partial "auditions/step.html" . }}
+  {{ end }}
+</ol>

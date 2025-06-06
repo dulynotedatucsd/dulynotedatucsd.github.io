@@ -1,0 +1,35 @@
+- title: "Book your audition via Calendly:"
+  text: >
+    Auditions will last ~16 minutes and slots are available throughout the dates
+    and time periods shown on Calendly.  If you cannot make any of the available
+    slots, please contact us through Instagram {{< socials/instagram >}} or
+    email {{< socials/email >}}, and we will try our best to accommodate you.
+  note: >
+    <i>*NOTE: Locations will be posted daily on our Instagram.</i>
+
+- title: "Choose your song:"
+  text: >
+    Pick a song that truly showcases your range, unique sound, and personality!
+  note: >
+    <i>*NOTE: Song must NOT be <b><u>musical theater, opera, or rap</u></b>.</i>
+
+- title: "Show up and sing:"
+  text: >
+    Please arrive at least 6 minutes prior to your scheduled time.  During your
+    audition, we'll lead you through some scales to warm you up and assess your
+    range.  After testing your sight-reading and ear, you'll sing a minute to a
+    minute and a half of your chosen song.
+  note: >
+    <i>*<b>OPTIONAL</b>: You can also do a beatboxing demonstration in which we
+    test your ability to hold a steady beat as well as have you do a 2 minute
+    freestyle!</i>
+
+- title: "Expect a Callback:"
+  text: >
+    We'll announce callbacks on the final audition day and email more
+    information to those selected. You'll join a mock rehearsal to meet and
+    experience singing with our group, allowing us to see how you perform
+    musically!
+  note: >
+    <i>*NOTE: You will be expected to follow show music, but don't forget to
+    have fun!</i>
