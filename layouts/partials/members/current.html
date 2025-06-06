@@ -1,3 +1,4 @@
+{{ partial "buttons/collapsible" (printf "Current Members %s" .Site.Params.academic_year) }}
 <div class="content">
   {{ range .Site.Data.members.current }}
     {{ if and .members (gt (len .members) 0) }}

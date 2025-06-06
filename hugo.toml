@@ -9,8 +9,11 @@ disableKinds = ["taxonomy"]
         [markup.goldmark.renderer]
             unsafe = true
 
+[params]
+    academic_year = "'24-'25"
+
 [params.auditions]
-    stauts = "CLOSED UNTIL FALL 2025"
+    status = "CLOSED UNTIL FALL 2025"
 
 [params.social.instagram]
     handle = "@ucsddulynoted"
