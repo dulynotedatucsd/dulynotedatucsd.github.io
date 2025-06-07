@@ -1,11 +1,20 @@
 <footer class="footer">
-    <img class="logo-left" src="/images/icons/dnlogo.webp">
-    <div class="copyright">&copy 2024, Duly Noted. All Rights Reserved</div>
+    <img class="logo-left" src="{{ (resources.Get "images/icons/dnlogo.webp").RelPermalink }}">
+    <div class="copyright">&copy; 2024, Duly Noted. All Rights Reserved</div>
     <div class="socials">
-        <a href="{{ .Site.Params.social.facebook.url }}"><img class="social" src="/images/icons/facebook.webp"></a>
-        <a href="{{ .Site.Params.social.instagram.url }}"><img class="social" src="/images/icons/instagram.webp"></a>
-        <a href="{{ .Site.Params.social.tiktok.url }}"><img class="social" src="/images/icons/tiktok.webp"></a>
-        <a href="{{ .Site.Params.social.email.url }}"><img class="social" src="/images/icons/email.webp"></a>
+        <a href="{{ .Site.Params.social.facebook.url }}">
+            <img class="social" src="{{ (resources.Get "images/icons/facebook.webp").RelPermalink }}">
+        </a>
+        <a href="{{ .Site.Params.social.instagram.url }}">
+            <img class="social" src="{{ (resources.Get "images/icons/instagram.webp").RelPermalink }}">
+        </a>
+        <a href="{{ .Site.Params.social.tiktok.url }}">
+            <img class="social" src="{{ (resources.Get "images/icons/tiktok.webp").RelPermalink }}">
+        </a>
+        <a href="{{ .Site.Params.social.email.url }}">
+            <img class="social" src="{{ (resources.Get "images/icons/email.webp").RelPermalink }}">
+        </a>
     </div>
 </footer>
+
 <script src="/js/scripts.js"></script>
