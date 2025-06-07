@@ -2,11 +2,11 @@
 <div class="content">
   <div class="table-style">
     {{ range .Site.Data.members.alumni }}
-      <div class="table-element">
-        <img class="table-image" src="/images/members/alumni/{{ .path }}">
-        <div class="table-name">{{ .name }}</div>
-        <div>{{ .voice }} | {{ .class }}</div>
-      </div>
+      {{ partial "members/table-card.html" (dict
+        "imagepath" (path.Join "images/members/alumni" .path)
+        "name" .name
+        "content" (printf "<div>%s | %s</div>" .voice .class)
+      )}}
     {{ end }}
   </div>
 </div>

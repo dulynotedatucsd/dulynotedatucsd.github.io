@@ -1,8 +1,11 @@
 {{ $photos := .photos }}
+{{ $directory := $photos.directory }}
 <div class="carousel-container">
   <div class="carousel">
     {{ range $photos.images }}
-      <img class="carousel-img" src="{{ .path }}">
+      {{ $image := resources.Get (path.Join "images" $directory .path)}}
+      {{ $image := $image.Process "webp fit 400x400"}}
+      <img class="carousel-img" src="{{ $image.RelPermalink }}" loading="lazy">
     {{ end }}
   </div>
 </div>

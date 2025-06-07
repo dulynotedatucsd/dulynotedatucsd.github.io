@@ -5,15 +5,11 @@
       <h3>{{ .year }}</h3>
       <div class="table-style">
         {{ range .members }}
-          <div class="table-element">
-            <img class="table-image" src="/images/members/current/{{ .path }}">
-            <div class="table-name">{{ .name }}</div>
-            <div>{{ .voice }}</div>
-            <div>{{ .major }}</div>
-            {{ with .minor }}
-              <div>{{ . }}</div>
-            {{ end }}
-          </div>
+          {{ partial "members/table-card.html" (dict
+            "imagepath" (path.Join "images/members/current" .path)
+            "name" .name
+            "content" (printf "%s<br>%s%s" .voice .major (cond (not .minor) "" (print "<br>" .minor)))
+          )}}
         {{ end }}
       </div>
     {{ end }}

@@ -1,5 +1,6 @@
 <div class="faq-container">
-  <div class="faq-icon"><img src="images/icons/{{ .icon }}"></div>
+  {{ $icon := resources.Get (path.Join "images/icons" .icon )}}
+  <div class="faq-icon"><img src="{{ $icon.RelPermalink }}"></div>
   <div class="faq-question">{{ .question }}</div>
   <div class="faq-answer">{{ .answer | markdownify }}</div>
 </div>

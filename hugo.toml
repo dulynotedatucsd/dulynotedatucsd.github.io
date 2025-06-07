@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Duly Noted'
 
 disableKinds = ["taxonomy"]
+enableRobotsTXT = true
 
 [markup]
     [markup.goldmark]

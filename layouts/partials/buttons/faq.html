@@ -5,7 +5,8 @@
   <div>
     <b>{{ $social }}</b>
     <a href="{{ $url }}">
-      <img class="redirect-icon" src="images/icons/upright.svg">
+      {{ $image := resources.Get "images/icons/upright.svg"}}
+      <img class="redirect-icon" src="{{ $image.RelPermalink }}">
     </a>
   </div>
   <div>

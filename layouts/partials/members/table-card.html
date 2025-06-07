@@ -1,0 +1,7 @@
+{{ $image := resources.Get .imagepath}}
+{{ $image := $image.Process "webp fit 400x600" }}
+<div class="table-element">
+  <img class="table-image" src="{{ $image.RelPermalink }}" loading="lazy">
+  <div class="table-name">{{ .name }}</div>
+  {{ .content | safeHTML }}
+</div>
