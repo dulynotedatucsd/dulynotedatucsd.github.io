@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ucsddulynoted.github.io/sitemap.xml
