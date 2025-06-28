@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ucsddulynoted.github.io/sitemap.xml
+Sitemap: https://dulynotedatucsd.github.io/sitemap.xml
