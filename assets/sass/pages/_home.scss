@@ -9,8 +9,8 @@
   width: 80%;
   display: inline-block;
   text-align: left;
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
 
   li {
     margin-bottom: 40px;
@@ -44,42 +44,62 @@
   display: grid;
   gap: 30px;
 
-  @include mixins.responsive-grid(small) {
+    @include mixins.breakpoint(xs) {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  @include mixins.responsive-grid(medium) {
-    grid-template-columns: repeat(2, 1fr);
+  @include mixins.breakpoint(sm) {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  @include mixins.responsive-grid(large) {
+  @include mixins.breakpoint(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include mixins.breakpoint(lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include mixins.breakpoint(xl) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 .faq-question {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .faq-answer {
-  font-size: 20px;
-  line-height: 36px;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
 }
 
 .faq-extra {
-  width: 50%;
-  font-size: 20px;
+  width: 75%;
+  font-size: 1.25rem;
   margin: auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .faq-header {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .faq-bold {
   font-weight: bold;
+}
+
+.faq-redirect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .redirect-icon {
@@ -91,11 +111,11 @@
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .audition-date {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 a {
@@ -114,7 +134,7 @@ a {
 
 .followup {
   display: block;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 500;
   padding-top: 25px;
 }
@@ -128,7 +148,7 @@ a {
 
 .column {
   flex: 1;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .column p {

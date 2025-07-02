@@ -6,6 +6,23 @@
   align-items: center;
 }
 
+.music-carousel {
+  @include mixins.phone-media {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
+
+  @include mixins.tablet-media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @include mixins.desktop-media {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .carousel {
   display: grid;
   grid-auto-flow: column;
@@ -19,11 +36,12 @@
 
 .carousel-button {
   background: none;
-  margin: 0 10px;
+  margin: 0 0.625rem;
   border: none;
   color: colors.$PRIMARY_COLOR;
-  font-size: 50px;
-  height: 100%;
+  font-size: 3.125rem;
+  width: 2rem;
+  height: auto;
   @include mixins.no-select;
 
   &:hover{
@@ -37,4 +55,5 @@
   max-height: 400px;
   margin: 30px;
   @include mixins.no-drag;
+  @include mixins.no-select;
 }

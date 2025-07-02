@@ -1,7 +1,8 @@
 @use "abstracts/colors";
+@use "abstracts/mixins";
 
 .section-title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
   margin: 12px 0px;
 }
@@ -9,11 +10,27 @@
 .group-name {
   display: block;
   font-family: Caveat;
-  font-size: min(10vw, 100px);
   color: colors.$SECONDARY_COLOR;
+
+  @include mixins.phone-media {
+    font-size: 5.5rem;
+  }
+
+  @include mixins.tablet-media {
+    font-size: 6.25rem;
+  }
+
+  @include mixins.desktop-media {
+    font-size: 6.25rem;
+  }
 }
 
 .intro-text {
-  font-size: min(3.2vw, 36px);
-  line-height: min(4.8vw, 54px);
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }

@@ -1,7 +1,28 @@
 @use "abstracts/colors";
+@use "abstracts/mixins";
 
 html {
   scroll-behavior: smooth;
+
+  @include mixins.breakpoint(xs) {
+    font-size: 75%;
+  }
+
+  @include mixins.breakpoint(sm) {
+    font-size: 75%;
+  }
+
+  @include mixins.breakpoint(md) {
+    font-size: 87.5%;
+  }
+
+  @include mixins.breakpoint(lg) {
+    font-size: 100%;
+  }
+
+  @include mixins.breakpoint(xl) {
+    font-size: 112.5%;
+  }
 }
 
 body {

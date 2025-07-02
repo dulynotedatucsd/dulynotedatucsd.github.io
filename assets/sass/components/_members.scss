@@ -31,7 +31,7 @@
   border: 1px solid colors.$PRIMARY_COLOR;
   text-align: left;
   outline: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Poppins;
   color: colors.$PRIMARY_COLOR;
   margin-bottom: 10px;
@@ -40,13 +40,17 @@
     content: '\002B';
     float: right;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 1rem;
     color: colors.$PRIMARY_COLOR;
   }
 
   &:hover {
     background-color: colors.$PRIMARY_COLOR;
     color: colors.$BACKGROUND_COLOR;
+
+    &::after {
+      color: colors.$BACKGROUND_COLOR;
+    }
   }
 
   &.clicked {
@@ -54,6 +58,11 @@
     color: colors.$BACKGROUND_COLOR;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
+
+    &::after {
+      content: "\2212";
+      color: colors.$BACKGROUND_COLOR;
+    }
   }
 }
 
@@ -62,39 +71,61 @@
   object-fit: cover;
   border-radius: 10px;
 
-  @include mixins.respond(small) {
+  @include mixins.breakpoint(xs) {
+    width: 50vw;
+  }
+  @include mixins.breakpoint(sm) {
     width: 30vw;
   }
-
-  @include mixins.respond(medium) {
+  @include mixins.breakpoint(md) {
     width: 20vw;
   }
-
-  @include mixins.respond(large) {
+  @include mixins.breakpoint(lg) {
     width: 14vw;
   }
+  @include mixins.breakpoint(xl) {
+    width: 14vw;
+  }
+
+  @include mixins.no-drag;
+  @include mixins.no-select;
 }
 
 .table-style {
   display: grid;
 
-  @include mixins.respond(small) {
+  @include mixins.breakpoint(xs) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @include mixins.breakpoint(sm) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @include mixins.respond(medium) {
+  @include mixins.breakpoint(md) {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  @include mixins.respond(large) {
+  @include mixins.breakpoint(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @include mixins.breakpoint(xl) {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 .table-element {
   text-align: center;
-  font-size: 0.75em;
   margin-bottom: 20px;
+
+  @include mixins.phone-media {
+    font-size: 0.9rem;
+  }
+  @include mixins.tablet-media {
+    font-size: 0.75rem;
+  }
+  @include mixins.desktop-media {
+    font-size: 0.75rem;
+  }
 }
 
 .table-name {
