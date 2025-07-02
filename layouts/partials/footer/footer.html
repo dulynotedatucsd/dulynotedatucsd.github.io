@@ -1,5 +1,7 @@
 <footer class="footer">
-    <img class="logo-left" src="{{ (resources.Get "images/icons/dnlogo.webp").RelPermalink }}">
+    <div class="logo-left">
+        <img src="{{ (resources.Get "images/icons/dnlogo.webp").RelPermalink }}">
+    </div>
     <div class="copyright">&copy; 2024, Duly Noted. All Rights Reserved</div>
     <div class="socials">
         <a href="{{ .Site.Params.social.facebook.url }}">
