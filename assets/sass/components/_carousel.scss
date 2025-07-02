@@ -37,4 +37,5 @@
   max-height: 400px;
   margin: 30px;
   @include mixins.no-drag;
+  @include mixins.no-select;
 }

@@ -62,31 +62,44 @@
   object-fit: cover;
   border-radius: 10px;
 
-  @include mixins.respond(small) {
+  @include mixins.breakpoint(xs) {
+    width: 50vw;
+  }
+  @include mixins.breakpoint(sm) {
     width: 30vw;
   }
-
-  @include mixins.respond(medium) {
+  @include mixins.breakpoint(md) {
     width: 20vw;
   }
-
-  @include mixins.respond(large) {
+  @include mixins.breakpoint(lg) {
     width: 14vw;
   }
+  @include mixins.breakpoint(xl) {
+    width: 14vw;
+  }
+
+  @include mixins.no-drag;
+  @include mixins.no-select;
 }
 
 .table-style {
   display: grid;
 
-  @include mixins.respond(small) {
+  @include mixins.breakpoint(xs) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @include mixins.breakpoint(sm) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @include mixins.respond(medium) {
+  @include mixins.breakpoint(md) {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  @include mixins.respond(large) {
+  @include mixins.breakpoint(lg) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @include mixins.breakpoint(xl) {
     grid-template-columns: repeat(4, 1fr);
   }
 }
