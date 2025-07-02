@@ -31,7 +31,7 @@
   border: 1px solid colors.$PRIMARY_COLOR;
   text-align: left;
   outline: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Poppins;
   color: colors.$PRIMARY_COLOR;
   margin-bottom: 10px;
@@ -40,7 +40,7 @@
     content: '\002B';
     float: right;
     margin-left: 5px;
-    font-size: 15px;
+    font-size: 1rem;
     color: colors.$PRIMARY_COLOR;
   }
 
@@ -93,7 +93,7 @@
 
 .table-element {
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.75rem;
   margin-bottom: 20px;
 }
 
