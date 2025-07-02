@@ -1,4 +1,5 @@
 @use "abstracts/colors";
+@use "abstracts/mixins";
 
 .section-title {
   font-size: 2rem;
@@ -9,8 +10,19 @@
 .group-name {
   display: block;
   font-family: Caveat;
-  font-size: 6.25rem;
   color: colors.$SECONDARY_COLOR;
+
+  @include mixins.phone-media {
+    font-size: 5.5rem;
+  }
+
+  @include mixins.tablet-media {
+    font-size: 6.25rem;
+  }
+
+  @include mixins.desktop-media {
+    font-size: 6.25rem;
+  }
 }
 
 .intro-text {

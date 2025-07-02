@@ -44,15 +44,21 @@
   display: grid;
   gap: 30px;
 
-  @include mixins.responsive-grid(small) {
+    @include mixins.breakpoint(xs) {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  @include mixins.responsive-grid(medium) {
-    grid-template-columns: repeat(2, 1fr);
+  @include mixins.breakpoint(sm) {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  @include mixins.responsive-grid(large) {
+  @include mixins.breakpoint(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include mixins.breakpoint(lg) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include mixins.breakpoint(xl) {
     grid-template-columns: repeat(3, 1fr);
   }
 }

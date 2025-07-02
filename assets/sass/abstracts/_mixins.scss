@@ -46,34 +46,28 @@
   }
 }
 
-@mixin respond($breakpoint) {
-  @if $breakpoint == small {
-    @media (min-width: 500px) and (max-width: 899px) {
-      @content;
-    }
-  } @else if $breakpoint == medium {
-    @media (min-width: 900px) and (max-width: 1199px) {
-      @content;
-    }
-  } @else if $breakpoint == large {
-    @media (min-width: 1200px) {
-      @content;
-    }
+@mixin phone-media {
+  @include breakpoint(xs) {
+    @content;
+  }
+
+  @include breakpoint(sm) {
+    @content;
   }
 }
 
-@mixin responsive-grid($breakpoint) {
-  @if $breakpoint == small {
-    @media (max-width: 800px) {
-      @content;
-    }
-  } @else if $breakpoint == medium {
-    @media (min-width: 801px) and (max-width: 1200px) {
-      @content;
-    }
-  } @else if $breakpoint == large {
-    @media (min-width: 1201px) {
-      @content;
-    }
+@mixin tablet-media {
+  @include breakpoint(md) {
+    @content;
+  }
+}
+
+@mixin desktop-media {
+  @include breakpoint(lg) {
+    @content;
+  }
+
+  @include breakpoint(xl) {
+    @content;
   }
 }

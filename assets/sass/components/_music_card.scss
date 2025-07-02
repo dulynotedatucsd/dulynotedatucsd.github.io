@@ -7,7 +7,19 @@
 }
 
 .music-card {
-  width: 500px;
+
+  @include mixins.phone-media {
+    width: 20rem;
+  }
+
+  @include mixins.tablet-media {
+    width: 20rem;
+  }
+
+  @include mixins.desktop-media {
+    width: 31.25rem;
+  }
+
   border-radius: 30px;
   padding: 10px;
   display: flex;
@@ -26,17 +38,37 @@
     color: colors.$BACKGROUND_COLOR;
   }
 
-  img {
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
+  .music-image {
+    aspect-ratio: 5/3;
+    width: 100%;
+    max-width: 500px;
     overflow: hidden;
-    @include mixins.no-drag;
+    border-radius: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      @include mixins.no-drag;
+    }
   }
 
   p {
     align-self: first baseline;
     margin: 15px 0px 10px 10px;
     font-size: 1.25rem;
+
+    @include mixins.phone-media {
+      font-size: 1rem;
+    }
+
+
+    @include mixins.tablet-media {
+      font-size: 1.125rem;
+    }
+
+    @include mixins.desktop-media {
+      font-size: 1.25rem    }
   }
 }

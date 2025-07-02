@@ -47,6 +47,10 @@
   &:hover {
     background-color: colors.$PRIMARY_COLOR;
     color: colors.$BACKGROUND_COLOR;
+
+    &::after {
+      color: colors.$BACKGROUND_COLOR;
+    }
   }
 
   &.clicked {
@@ -54,6 +58,11 @@
     color: colors.$BACKGROUND_COLOR;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
+
+    &::after {
+      content: "\2212";
+      color: colors.$BACKGROUND_COLOR;
+    }
   }
 }
 
@@ -106,8 +115,17 @@
 
 .table-element {
   text-align: center;
-  font-size: 0.75rem;
   margin-bottom: 20px;
+
+  @include mixins.phone-media {
+    font-size: 0.9rem;
+  }
+  @include mixins.tablet-media {
+    font-size: 0.75rem;
+  }
+  @include mixins.desktop-media {
+    font-size: 0.75rem;
+  }
 }
 
 .table-name {
