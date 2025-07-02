@@ -29,19 +29,15 @@
 }
 
 #logo {
-  width: 70%;
+  width: 16rem; 
   height: auto;
   display: block;
   margin: auto;
   transition: width 1s ease;
-
-  @media (max-width: 1780px) {
-    width: 50%;
-  }
 }
 
 #est {
-  font-size: 90%;
+  font-size: 0.875rem;
   line-height: 0px;
 }
 
