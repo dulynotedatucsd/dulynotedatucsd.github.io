@@ -10,23 +10,25 @@ enableRobotsTXT = true
         [markup.goldmark.renderer]
             unsafe = true
 
+[imaging]
+    quality = 75
+
 [params]
-    academic_year = "'24-'25"
+    academic_year = "'25-'26"
 
 [params.auditions]
     status = "CLOSED UNTIL FALL 2025"
 
 [params.social.instagram]
-    handle = "@ucsddulynoted"
-    url = "https://www.instagram.com/ucsddulynoted/"
+    handle = "@dulynotedatucsd"
+    url = "https://www.instagram.com/dulynotedatucsd/"
 [params.social.email]
-    handle = "ucsddulynoted@gmail.com"
-    url = "mailto:ucsddulynoted@gmail.com"
+    handle = "dulynotedatucsd@gmail.com"
+    url = "mailto:dulynotedatucsd@gmail.com"
 [params.social.tiktok]
-    url = "https://www.tiktok.com/@ucsddulynoted"
+    url = "https://www.tiktok.com/@dulynotedatucsd"
 [params.social.facebook]
     url = "https://www.facebook.com/ucsddulynoted"
 [params.social.youtube]
-    url = "https://www.youtube.com/@ucsddulynoted"
-[params.social.donate]
-    url = "https://www.venmo.com/u/UcsdDulyNoted"
+    url = "https://www.youtube.com/@dulynotedatucsd"
+# [params.social.donate]

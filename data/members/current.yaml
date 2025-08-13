@@ -1,4 +1,4 @@
-- year: Freshmen
+- year: Sophomores
   members:
     - name: "Apolo Madrigal"
       voice: "Tenor & Beatbox"
@@ -20,7 +20,7 @@
       major: "Cognitive Science and ICAM Visual Art Major"
       path: Tavishi_Raghunathan.png
 
-- year: Sophomores
+- year: Juniors
   members:
     - name: "Allison Wang"
       voice: "Soprano"
@@ -31,12 +31,6 @@
       voice: "Bass"
       major: "Electrical Engineering Major"
       path: "Andrew_Jung.png"
-
-    - name: "Emily Otkupman"
-      voice: "Alto"
-      major: "Psychology Major"
-      minor: "Theatre Minor"
-      path: Emily_Otkupman.png
 
     - name: "Jesse Wu"
       voice: "Bass"
@@ -49,18 +43,13 @@
       major: "Marine Biology Major"
       path: Linnea_Cooley.png
 
-- year: Juniors
+- year: Seniors
   members:
     - name: "Cedric-James David"
       voice: "Baritone"
       major: "Computer Science Major"
       minor: "Math Minor"
       path: Cedric-James_David.png
-
-    - name: "Camille Manalo"
-      voice: "Alto"
-      major: "Cognitive Science: Design and Interaction Major"
-      path: Camille_Manalo.png
 
     - name: "Emma Kalway"
       voice: "Mezzo"
@@ -77,33 +66,3 @@
       voice: "Mezzo & Beatbox"
       major: "Communications Major"
       path: Nina_Ardalan.png
-
-
-- year: Seniors
-  members:
-    - name: "Annette Lee"
-      voice: "Soprano"
-      major: "Global Health Major"
-      minor: "Biology Minor"
-      path: Annette_Lee.png
-
-    - name: "Audrey Gomez"
-      voice: "Alto"
-      major: "Music and Education Studies Major"
-      path: Audrey_Gomez.png
-
-    - name: "Derek Oyama"
-      voice: "Bass & Beatbox"
-      major: "Business Economics Major"
-      path: Derek_Oyama.png
-
-    - name: "Justin Lagala"
-      voice: "Bass"
-      major: "Biotechnology Major"
-      minor: "Physics Minor"
-      path: Justin_Lagala.png
-
-    - name: "Parsa Farnad"
-      voice: "Tenor & Beatbox"
-      major: "General Biology and Theatre Major"
-      path: Parsa_Farnad.png

@@ -3,7 +3,7 @@
   <div class="table-style">
     {{ range .Site.Data.members.alumni }}
       {{ partial "members/table-card.html" (dict
-        "imagepath" (path.Join "images/members/alumni" .path)
+        "imagepath" (path.Join "images/members/alumni" .class .path)
         "name" .name
         "content" (printf "<div>%s | %s</div>" .voice .class)
       )}}
