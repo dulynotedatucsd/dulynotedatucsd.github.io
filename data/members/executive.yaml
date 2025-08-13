@@ -6,34 +6,26 @@
   role: President
   path: Emma_Kalway.png
 
-- name: Parsa Farnad
+- name: Tavishi Raghunathan
   role: Music Director
-  path: Parsa_Farnad.png
+  path: Tavishi_Raghunathan.png
 
-- name: Linnea Cooley
+- name: Apolo Madrigal
   role: Music Director
-  path: Linnea_Cooley.png
-
-- name: Jesse Wu
-  role: Vice-President
-  path: Jesse_Wu.png
-
-- name: Justin Lagala
-  role: Performance Director
-  path: Justin_Lagala.png
+  path: Apolo_Madrigal.png
 
 - name: Lee
   role: Performance Director
   path: Lee.png
 
-- name: Derek Oyama
+- name: Nina Ardalan
+  role: Performance Director
+  path: Nina_Ardalan.png
+
+- name: Isaac Kim
   role: Treasurtary
-  path: Derek_Oyama.png
+  path: Isaac_Kim.png
 
-- name: Camille Manalo
-  role: Public Relations
-  path: Camille_Manalo.png
-
-- name: Audrey Gomez
+- name: Linnea Cooley
   role: Social Chair
-  path: Audrey_Gomez.png
+  path: Linnea_Cooley.png

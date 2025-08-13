@@ -10,8 +10,11 @@ enableRobotsTXT = true
         [markup.goldmark.renderer]
             unsafe = true
 
+[imaging]
+    quality = 75
+
 [params]
-    academic_year = "'24-'25"
+    academic_year = "'25-'26"
 
 [params.auditions]
     status = "CLOSED UNTIL FALL 2025"

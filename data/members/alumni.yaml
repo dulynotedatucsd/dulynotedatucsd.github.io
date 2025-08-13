@@ -1,216 +1,241 @@
 - name: Alwin Szeto
   voice: "Bass"
-  class: '2013'
-  path: 2013_Alwin_Szeto_Bass.webp
+  class: "2013"
+  path: Alwin_Szeto.webp
 - name: Danielle Tobey
   voice: "Alto"
-  class: '2013'
-  path: 2013_Danielle_Tobey_Alto.webp
+  class: "2013"
+  path: Danielle_Tobey.webp
 - name: Jen-Ann Lee
   voice: "Alto"
-  class: '2013'
-  path: 2013_Jen-Ann_Lee_Alto.webp
+  class: "2013"
+  path: Jen-Ann_Lee.webp
 - name: Joshua Yuen
   voice: "Bass"
-  class: '2013'
-  path: 2013_Joshua_Yuen_Bass.webp
+  class: "2013"
+  path: Joshua_Yuen.webp
 - name: Sarah Park
   voice: "Alto"
-  class: '2013'
-  path: 2013_Sarah_Park_Alto.webp
+  class: "2013"
+  path: Sarah_Park.webp
 - name: Abraham Chen
   voice: "Bass"
-  class: '2014'
-  path: 2014_Abraham_Chen_Bass.webp
+  class: "2014"
+  path: Abraham_Chen.webp
 - name: Chris Wong
   voice: "Bass"
-  class: '2014'
-  path: 2014_Chris_Wong_Bass.webp
+  class: "2014"
+  path: Chris_Wong.webp
 - name: Donna Kim
   voice: "Alto"
-  class: '2014'
-  path: 2014_Donna_Kim_Alto.webp
+  class: "2014"
+  path: Donna_Kim.webp
 - name: Kari-Ann Yoshida
   voice: "Soprano"
-  class: '2014'
-  path: 2014_Kari-Ann_Yoshida_Soprano.webp
+  class: "2014"
+  path: Kari-Ann_Yoshida.webp
 - name: Monica Hwang
   voice: "Alto"
-  class: '2014'
-  path: 2014_Monica_Hwang_Alto.webp
+  class: "2014"
+  path: Monica_Hwang.webp
 - name: William Kim
   voice: "Bass"
-  class: '2014'
-  path: 2014_William_Kim_Bass.webp
+  class: "2014"
+  path: William_Kim.webp
 - name: Connor Daley
   voice: "Tenor"
-  class: '2015'
-  path: 2015_Connor_Daley_Tenor.webp
+  class: "2015"
+  path: Connor_Daley.webp
 - name: Julian Haddad
   voice: "Tenor"
-  class: '2015'
-  path: 2015_Julian_Haddad_Tenor.webp
+  class: "2015"
+  path: Julian_Haddad.webp
 - name: Krystl Fabella
   voice: "Alto"
-  class: '2015'
-  path: 2015_Krystl_Fabella_Alto.webp
+  class: "2015"
+  path: Krystl_Fabella.webp
 - name: Lena Mier
   voice: "Alto"
-  class: '2015'
-  path: 2015_Lena_Mier_Alto.webp
+  class: "2015"
+  path: Lena_Mier.webp
 - name: Sean Oh
   voice: "Bass"
-  class: '2015'
-  path: 2015_Sean_Oh_Bass.webp
+  class: "2015"
+  path: Sean_Oh.webp
 - name: Chris Gross
   voice: "Bass"
-  class: '2016'
-  path: 2016_Chris_Gross_Bass.webp
+  class: "2016"
+  path: Chris_Gross.webp
 - name: Christal Vo
   voice: "Alto"
-  class: '2016'
-  path: 2016_Christal_Vo_Alto.webp
+  class: "2016"
+  path: Christal_Vo.webp
 - name: Daniel Tsay
   voice: "Tenor"
-  class: '2016'
-  path: 2016_Daniel_Tsay_Tenor.webp
+  class: "2016"
+  path: Daniel_Tsay.webp
 - name: Justin Vu
   voice: "Baritone"
-  class: '2016'
-  path: 2016_Justin_Vu_Baritone.webp
+  class: "2016"
+  path: Justin_Vu.webp
 - name: Linnea Lagerstrom
   voice: "Soprano"
-  class: '2016'
-  path: 2016_Linnea_Lagerstrom_Soprano.webp
+  class: "2016"
+  path: Linnea_Lagerstrom.webp
 - name: Michelle Yee
   voice: "Soprano"
-  class: '2016'
-  path: 2016_Michelle_Yee_Soprano.webp
+  class: "2016"
+  path: Michelle_Yee.webp
 - name: Rosey Williams
   voice: "Alto"
-  class: '2016'
-  path: 2016_Rosey_Williams_Alto.webp
+  class: "2016"
+  path: Rosey_Williams.webp
 - name: Albert Nguyen
   voice: "Baritone"
-  class: '2017'
-  path: 2017_Albert_Nguyen_Baritone.webp
+  class: "2017"
+  path: Albert_Nguyen.webp
 - name: Alexie Sousa
   voice: "Alto"
-  class: '2017'
-  path: 2017_Alexie_Sousa_Alto.webp
+  class: "2017"
+  path: Alexie_Sousa.webp
 - name: Austin Eamnarangkool
   voice: "Tenor"
-  class: '2017'
-  path: 2017_Austin_Eamnarangkool_Tenor.webp
+  class: "2017"
+  path: Austin_Eamnarangkool.webp
 - name: Austin Rennels
   voice: "Tenor"
-  class: '2017'
-  path: 2017_Austin_Rennels_Tenor.webp
+  class: "2017"
+  path: Austin_Rennels.webp
 - name: Christy Park
   voice: "Soprano"
-  class: '2017'
-  path: 2017_Christy_Park_Soprano.webp
+  class: "2017"
+  path: Christy_Park.webp
 - name: Erin Brown
   voice: "Alto"
-  class: '2017'
-  path: 2017_Erin_Brown_Alto.webp
+  class: "2017"
+  path: Erin_Brown.webp
 - name: Abdullah Bawazir
   voice: "Beatbox"
-  class: '2020'
-  path: 2020_Abdullah_Bawazir_Beatbox.webp
+  class: "2020"
+  path: Abdullah_Bawazir.webp
 - name: Kelly Leung
   voice: "Soprano"
-  class: '2020'
-  path: 2020_Kelly_Leung_Soprano.webp
+  class: "2020"
+  path: Kelly_Leung.webp
 - name: Micah Banawis
   voice: "Mezzo"
-  class: '2020'
-  path: 2020_Micah_Banawis_Mezzo.webp
+  class: "2020"
+  path: Micah_Banawis.webp
 - name: Reilly Gallagher
   voice: "Alto"
-  class: '2020'
-  path: 2020_Reilly_Gallagher_Alto.webp
+  class: "2020"
+  path: Reilly_Gallagher.webp
 - name: Caleb Yun
   voice: "Bass"
-  class: '2021'
-  path: 2021_Caleb_Yun_Bass.webp
+  class: "2021"
+  path: Caleb_Yun.webp
 - name: Cameron Joh
   voice: "Bass"
-  class: '2021'
-  path: 2021_Cameron_Joh_Bass.webp
+  class: "2021"
+  path: Cameron_Joh.webp
 - name: Denise Gonzales
   voice: "Alto"
-  class: '2021'
-  path: 2021_Denise_Gonzales_Alto.webp
+  class: "2021"
+  path: Denise_Gonzales.webp
 - name: Evan Laufer
   voice: "Tenor"
-  class: '2021'
-  path: 2021_Evan_Laufer_Tenor.webp
+  class: "2021"
+  path: Evan_Laufer.webp
 - name: Jonathan Truong
   voice: "Tenor"
-  class: '2021'
-  path: 2021_Jonathan_Truong_Tenor.webp
+  class: "2021"
+  path: Jonathan_Truong.webp
 - name: Keoni Butler
   voice: "Baritone"
-  class: '2021'
-  path: 2021_Keoni_Butler_Baritone.webp
+  class: "2021"
+  path: Keoni_Butler.webp
 - name: Natalie Romero
   voice: "Alto"
-  class: '2021'
-  path: 2021_Natalie_Romero_Alto.webp
+  class: "2021"
+  path: Natalie_Romero.webp
 - name: Olivia Baaten
   voice: "Soprano"
-  class: '2021'
-  path: 2021_Olivia_Baaten_Soprano.webp
+  class: "2021"
+  path: Olivia_Baaten.webp
 - name: Cindy Huang
   voice: "Mezzo"
-  class: '2022'
-  path: 2022_Cindy_Huang_Mezzo.webp
+  class: "2022"
+  path: Cindy_Huang.webp
 - name: Elias Fang
   voice: "Tenor"
-  class: '2022'
-  path: 2022_Elias_Fang_Tenor.webp
+  class: "2022"
+  path: Elias_Fang.webp
 - name: Jeremy Greenstein
   voice: "Baritone"
-  class: '2022'
-  path: 2022_Jeremy_Greenstein_Baritone.webp
+  class: "2022"
+  path: Jeremy_Greenstein.webp
 - name: Jolina Galano
   voice: "Mezzo"
-  class: '2022'
-  path: 2022_Jolina_Galano_Mezzo.webp
+  class: "2022"
+  path: Jolina_Galano.webp
 - name: Natalie Teuton
   voice: "Alto"
-  class: '2022'
-  path: 2022_Natalie_Teuton_Alto.webp
+  class: "2022"
+  path: Natalie_Teuton.webp
 - name: Sarah Chen
   voice: "Soprano"
-  class: '2022'
-  path: 2022_Sarah_Chen_Soprano.webp
+  class: "2022"
+  path: Sarah_Chen.webp
 - name: Catherine Ibrahim
   voice: "Mezzo"
-  class: '2023'
-  path: 2023_Catherine_Ibrahim_Mezzo.webp
+  class: "2023"
+  path: Catherine_Ibrahim.webp
 - name: Sofia Nguyen
   voice: "Soprano"
-  class: '2023'
-  path: 2023_Sofia_Nguyen_Soprano.webp
+  class: "2023"
+  path: Sofia_Nguyen.webp
 - name: Valerie Tran
   voice: "Mezzo"
-  class: '2023'
-  path: 2023_Valerie_Tran_Mezzo.webp
+  class: "2023"
+  path: Valerie_Tran.webp
 - name: Alexander Kourjanski
   voice: "Bass & Beatbox"
-  class: '2024'
-  path: 2024_Alexander_Kourjanski_Bass&Beatbox.webp
+  class: "2024"
+  path: Alexander_Kourjanski.webp
 - name: Autumn Hope
   voice: "Tenor"
-  class: '2024'
-  path: 2024_Autumn_Hope_Tenor.webp
+  class: "2024"
+  path: Autumn_Hope.webp
 - name: Jeremy Aranda
   voice: "Tenor & Baritone"
-  class: '2024'
-  path: 2024_Jeremy_Aranda_Tenor&Baritone.webp
+  class: "2024"
+  path: Jeremy_Aranda.webp
 - name: Kenneth Chung
   voice: "Baritone"
-  class: '2024'
-  path: 2024_Kenneth_Chung_Baritone.webp
+  class: "2024"
+  path: Kenneth_Chung.webp
+
+- name: Annette Lee
+  voice: "Soprano"
+  class: "2025"
+  path: Annette_Lee.png
+- name: Audrey Gomez
+  voice: "Alto"
+  class: "2025"
+  path: Audrey_Gomez.png
+- name: Camille Manalo
+  voice: "Alto"
+  class: "2025"
+  path: Camille_Manalo.png
+- name: "Parsa Farnad"
+  voice: "Tenor & Beatbox"
+  class: "2025"
+  path: Parsa_Farnad.png
+- name: "Justin Lagala"
+  voice: "Bass"
+  class: "2025"
+  path: Justin_Lagala.png
+- name: "Derek Oyama"
+  voice: "Bass & Beatbox"
+  class: "2025"
+  path: Derek_Oyama.png
