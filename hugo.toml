@@ -15,6 +15,7 @@ enableRobotsTXT = true
 
 [params]
     academic_year = "'25-'26"
+    copyright_year = "2025"
 
 [params.auditions]
     status = "CLOSED UNTIL FALL 2025"
@@ -28,7 +29,7 @@ enableRobotsTXT = true
 [params.social.tiktok]
     url = "https://www.tiktok.com/@dulynotedatucsd"
 [params.social.facebook]
-    url = "https://www.facebook.com/ucsddulynoted"
+    url = "https://www.facebook.com/dulynotedatucsd"
 [params.social.youtube]
     url = "https://www.youtube.com/@dulynotedatucsd"
 # [params.social.donate]
