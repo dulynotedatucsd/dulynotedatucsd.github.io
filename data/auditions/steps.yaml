@@ -1,7 +1,7 @@
 - title: "Book your audition via Calendly:"
   text: >
     Auditions will last ~16 minutes and slots are available throughout the dates
-    and time periods shown on Calendly.  If you cannot make any of the available
+    and time periods shown on <a href="https://calendly.com/dulynotedatucsd/fall25-auditions">Calendly</a>.  If you cannot make any of the available
     slots, please contact us through Instagram {{< socials/instagram >}} or
     email {{< socials/email >}}, and we will try our best to accommodate you.
   note: >

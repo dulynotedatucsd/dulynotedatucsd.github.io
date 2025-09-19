@@ -18,7 +18,7 @@ enableRobotsTXT = true
     copyright_year = "2025"
 
 [params.auditions]
-    status = "CLOSED UNTIL FALL 2025"
+    status = "OPEN"
 
 [params.social.instagram]
     handle = "@dulynotedatucsd"
