@@ -3,7 +3,10 @@
   <div class="table-style">
     {{ range .Site.Data.members.executive }}
       {{ partial "members/table-card.html" (dict
-        "imagepath" (path.Join "images/members/current" .path)
+        "imagepath" (cond .path
+          (path.Join "images/members/current" .path)
+          "images/members/default.png"
+        )
         "name" .name
         "content" (printf "<div>%s</div>" .role)
       )}}
