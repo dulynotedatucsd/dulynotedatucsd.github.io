@@ -4,12 +4,12 @@
     {{ range .Site.Data.carousels.music }}
       <div class="music-container">
         {{ $image := resources.Get (path.Join "images/music" .image )}}
-        {{ $image := $image.Process "webp fit 500x300" }}
+        {{ $image := $image.Process "webp fill 500x300 center" }}
         <a class="music-card" href="{{ .url }}">
           <span class="music-image">
             <img src="{{ $image.RelPermalink }}" alt="{{ .title }}" loading="lazy">
           </span>
-          <p>"{{ .title }} - {{ .artist }}</p>
+          <p>{{ .title }}</p>
         </a>
       </div>
     {{ end }}
