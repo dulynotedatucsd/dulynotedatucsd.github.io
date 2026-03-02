@@ -1,68 +1,95 @@
+- year: Freshmen
+  members:
+    - name: "Lydia Thomas"
+      voice: "Alto"
+      major: "Chemical Engineering"
+
+    - name: "Joshua Hsu"
+      voice: "Bass"
+      major: "Cognitive Science"
+
 - year: Sophomores
   members:
     - name: "Apolo Madrigal"
       voice: "Tenor & Beatbox"
-      major: "Political Science Major"
+      major: "Political Science"
       path: Apolo_Madrigal.png
+
+    - name: "Chazaiah Johnson"
+      voice: "Tenor & Beatbox"
+      major: "Theater"
+
+    - name: Emery Holmer
+      voice: "Alto"
+      major: "Applied Math"
 
     - name: "Emilio Roque"
       voice: "Baritone"
-      major: "Political Science: Public Law Major"
+      major: "Political Science: Public Law"
       path: Emilio_Roque.png
+
+    - name: "Evelyn Sugapong"
+      voice: "Alto"
+      major: "Cognitive Science: Design and Interaction"
 
     - name: "Isaac Kim"
       voice: "Tenor"
-      major: "Applied Math Major"
+      major: "Applied Math and Econ"
+      minor: "Philosophy"
       path: Isaac_Kim.png
+
+    - name: "Hailey Williams"
+      voice: "Soprano"
+      major: "Sociology: Law and Society/Urban Sutdies and Planning"
     
     - name: "Tavishi Raghunathan"
       voice: "Soprano"
-      major: "Cognitive Science and ICAM Visual Art Major"
+      major: "Cognitive Science: Machine Learning & Neural Computation and Cinematic Arts"
       path: Tavishi_Raghunathan.png
 
 - year: Juniors
   members:
     - name: "Allison Wang"
       voice: "Soprano"
-      major: "Computer Science Major"
+      major: "Computer Science"
       path: Allison_Wang.png
 
     - name: "Andrew Jung"
       voice: "Bass"
-      major: "Electrical Engineering Major"
+      major: "Electrical Engineering"
       path: "Andrew_Jung.png"
 
     - name: "Jesse Wu"
       voice: "Bass"
-      major: "Political Science Major"
-      minor: "Japanese Studies Minor"
+      major: "Political Science"
+      minor: "Japanese Studies"
       path: Jesse_Wu.png
 
     - name: "Linnea Cooley"
       voice: "Mezzo"
-      major: "Marine Biology Major"
+      major: "Marine Biology"
       path: Linnea_Cooley.png
 
 - year: Seniors
   members:
     - name: "Cedric-James David"
       voice: "Baritone"
-      major: "Computer Science Major"
-      minor: "Math Minor"
+      major: "Computer Science"
+      minor: "Math"
       path: Cedric-James_David.png
 
     - name: "Emma Kalway"
       voice: "Mezzo"
-      major: "Political Science: Public Law Major"
-      minor: "Business Economics and Law & Society Minor"
+      major: "Political Science: Public Law"
+      minor: "Business Economics and Law & Society"
       path: Emma_Kalway.png
 
     - name: "Lee"
       voice: "Baritone"
-      major: "Environmental Systems Major"
+      major: "Environmental Systems"
       path: Lee.png
 
     - name: "Nina Ardalan"
       voice: "Mezzo & Beatbox"
-      major: "Communications Major"
+      major: "Communications"
       path: Nina_Ardalan.png

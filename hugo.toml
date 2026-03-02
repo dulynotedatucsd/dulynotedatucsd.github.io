@@ -15,10 +15,10 @@ enableRobotsTXT = true
 
 [params]
     academic_year = "'25-'26"
-    copyright_year = "2025"
+    copyright_year = "2026"
 
 [params.auditions]
-    status = "OPEN"
+    status = "CLOSED UNTIL FALL 2026"
 
 [params.social.instagram]
     handle = "@dulynotedatucsd"

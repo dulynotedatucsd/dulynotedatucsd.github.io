@@ -6,9 +6,19 @@
       <div class="table-style">
         {{ range .members }}
           {{ partial "members/table-card.html" (dict
-            "imagepath" (path.Join "images/members/current" .path)
+            "imagepath" (cond .path
+              (path.Join "images/members/current" .path)
+              "images/members/default.png"
+            )
             "name" .name
-            "content" (printf "%s<br>%s%s" .voice .major (cond (not .minor) "" (print "<br>" .minor)))
+            "content" (printf "%s<br>%s Major%s"
+              .voice
+              .major
+              (cond (not .minor)
+                ""
+                (printf "<br>%s Minor" .minor)
+              )
+            )
           )}}
         {{ end }}
       </div>
