@@ -1,5 +1,9 @@
 - year: Freshmen
   members:
+    - name: "Evelyn Sugapong"
+      voice: "Alto"
+      major: "Cognitive Science: Design and Interaction"
+    
     - name: "Lydia Thomas"
       voice: "Alto"
       major: "Chemical Engineering"
@@ -27,10 +31,6 @@
       voice: "Baritone"
       major: "Political Science: Public Law"
       path: Emilio_Roque.png
-
-    - name: "Evelyn Sugapong"
-      voice: "Alto"
-      major: "Cognitive Science: Design and Interaction"
 
     - name: "Isaac Kim"
       voice: "Tenor"
