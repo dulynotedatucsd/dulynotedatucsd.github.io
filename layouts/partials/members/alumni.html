@@ -1,7 +1,7 @@
 {{ partial "buttons/collapsible" "Alumni "}}
 <div class="content">
   <div class="table-style">
-    {{ range .Site.Data.members.alumni }}
+    {{ range hugo.Data.members.alumni }}
       {{ partial "members/table-card.html" (dict
         "imagepath" (path.Join "images/members/alumni" .class .path)
         "name" .name

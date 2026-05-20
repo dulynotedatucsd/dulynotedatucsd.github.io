@@ -1,6 +1,6 @@
 {{ partial "buttons/collapsible" (printf "Current Members %s" .Site.Params.academic_year) }}
 <div class="content">
-  {{ range .Site.Data.members.current }}
+  {{ range hugo.Data.members.current }}
     {{ if and .members (gt (len .members) 0) }}
       <h3>{{ .year }}</h3>
       <div class="table-style">

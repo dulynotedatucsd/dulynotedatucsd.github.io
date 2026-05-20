@@ -1,7 +1,7 @@
 {{ partial "buttons/collapsible" (printf "Executive Board %s" .Site.Params.academic_year)}}
 <div class="content">
   <div class="table-style">
-    {{ range .Site.Data.members.executive }}
+    {{ range hugo.Data.members.executive }}
       {{ partial "members/table-card.html" (dict
         "imagepath" (cond .path
           (path.Join "images/members/current" .path)
