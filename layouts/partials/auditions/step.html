@@ -1,5 +1,9 @@
 <li>
-  <b>{{ .title }}</b>
-  {{ .text | markdownify }}<br>
-  {{ .note | markdownify }}
+  {{ $text := .step.text | markdownify }}
+  {{ with .site.Params.auditions.calendly_url }}
+    {{ $text = replace $text "Calendly" (printf `<a href="%s">Calendly</a>` .) }}
+  {{ end }}
+  <b>{{ .step.title }}</b>
+  {{ $text | safeHTML }}<br>
+  {{ .step.note | markdownify }}
 </li>

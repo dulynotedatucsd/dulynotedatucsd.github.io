@@ -81,6 +81,7 @@ Do not edit generated output directly. Make changes in the source files on `main
 | Update | File or folder |
 | --- | --- |
 | Site-wide settings, social links, academic year, copyright year, audition status banner | `hugo.toml` under `[params]` |
+| Audition signup link | `hugo.toml` under `[params.auditions]` |
 | Current members | `data/members/current.yaml` |
 | Executive board | `data/members/executive.yaml` |
 | Alumni | `data/members/alumni.yaml` |
@@ -128,7 +129,10 @@ Edit `hugo.toml`:
 ```toml
 [params.auditions]
     status = "CLOSED UNTIL FALL 2026"
+    calendly_url = "https://calendly.com/dulynotedatucsd/fall25-auditions"
 ```
+
+If `calendly_url` is set, the word `Calendly` in the audition steps becomes a link. If `calendly_url` is empty or removed, `Calendly` renders as normal text.
 
 ### Add a Current Member
 
@@ -236,7 +240,8 @@ At the start of each new school year:
 - Update `data/members/current.yaml` with the new roster.
 - Update `data/members/executive.yaml` with the new board.
 - Swap or update group photos and carousel photos as needed.
-- Update audition steps, FAQ, Calendly links, and location notes in `data/auditions/`.
+- Update audition steps, FAQ, and location notes in `data/auditions/`.
+- Update the Calendly signup link in `hugo.toml`.
 - Run `hugo --minify` before pushing.
 
 ## Build Artifacts

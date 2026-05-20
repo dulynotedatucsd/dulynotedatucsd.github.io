@@ -19,6 +19,7 @@ enableRobotsTXT = true
 
 [params.auditions]
     status = "CLOSED UNTIL FALL 2026"
+    calendly_url = ""
 
 [params.social.instagram]
     handle = "@dulynotedatucsd"
