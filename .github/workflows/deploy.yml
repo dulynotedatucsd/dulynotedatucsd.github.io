@@ -1,34 +1,27 @@
 name: Deploy site
-
 on:
   push:
     branches: [main]
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      packages: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Log into GHCR
-        uses: docker/login-action@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          hugo-version: '0.161.1'
+          extended: true
 
-      - name: Build Hugo Site
-        run: |
-          docker run --rm \
-            -v ${{ github.workspace }}:/src \
-            -w /src \
-            ghcr.io/dulynotedatucsd/hugo-dart-sass:latest \
-            hugo --minify
+      - name: Setup Dart Sass
+        run: sudo snap install dart-sass
 
+      - name: Build site
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
