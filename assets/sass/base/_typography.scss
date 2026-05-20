@@ -12,17 +12,7 @@
   font-family: Caveat;
   color: colors.$SECONDARY_COLOR;
 
-  @include mixins.phone-media {
-    font-size: 5.5rem;
-  }
-
-  @include mixins.tablet-media {
-    font-size: 6.25rem;
-  }
-
-  @include mixins.desktop-media {
-    font-size: 6.25rem;
-  }
+  @include mixins.responsive-property(font-size, 5.5rem, 6.25rem, 6.25rem);
 }
 
 .intro-text {

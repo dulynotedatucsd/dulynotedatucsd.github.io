@@ -89,6 +89,20 @@
   }
 }
 
+@mixin responsive-property($property, $phone, $tablet, $desktop) {
+  @include phone-media {
+    #{$property}: $phone;
+  }
+
+  @include tablet-media {
+    #{$property}: $tablet;
+  }
+
+  @include desktop-media {
+    #{$property}: $desktop;
+  }
+}
+
 @mixin breakpoint($size) {
   @if $size == xs {
     & {

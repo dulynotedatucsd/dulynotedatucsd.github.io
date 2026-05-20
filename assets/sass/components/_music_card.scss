@@ -17,18 +17,7 @@
   text-decoration: none;
 
   @include mixins.transition-colors;
-
-  @include mixins.phone-media {
-    width: 20rem;
-  }
-
-  @include mixins.tablet-media {
-    width: 20rem;
-  }
-
-  @include mixins.desktop-media {
-    width: 31.25rem;
-  }
+  @include mixins.responsive-property(width, 20rem, 20rem, 31.25rem);
 
   &:hover {
     @include mixins.hover-invert;
@@ -55,17 +44,6 @@
     margin: 15px 0px 10px 10px;
     font-size: 1.25rem;
 
-    @include mixins.phone-media {
-      font-size: 1rem;
-    }
-
-
-    @include mixins.tablet-media {
-      font-size: 1.125rem;
-    }
-
-    @include mixins.desktop-media {
-      font-size: 1.25rem;
-    }
+    @include mixins.responsive-property(font-size, 1rem, 1.125rem, 1.25rem);
   }
 }
