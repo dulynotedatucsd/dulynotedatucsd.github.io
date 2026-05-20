@@ -4,8 +4,6 @@
 .redirect {
   margin: 50px;
   @include mixins.flex-center;
-
-  // text-align: center;
 }
 
 .redirect-button {

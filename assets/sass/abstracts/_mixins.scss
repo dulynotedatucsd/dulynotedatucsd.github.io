@@ -61,6 +61,34 @@
   }
 }
 
+@mixin show-on-phone($display: block) {
+  @include phone-media {
+    display: $display;
+  }
+
+  @include tablet-media {
+    display: none;
+  }
+
+  @include desktop-media {
+    display: none;
+  }
+}
+
+@mixin show-on-tablet-desktop($display: flex) {
+  @include phone-media {
+    display: none;
+  }
+
+  @include tablet-media {
+    display: $display;
+  }
+
+  @include desktop-media {
+    display: $display;
+  }
+}
+
 @mixin breakpoint($size) {
   @if $size == xs {
     & {
