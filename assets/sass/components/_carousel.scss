@@ -25,9 +25,12 @@
 
 .carousel {
   display: grid;
+  flex: 1;
+  min-width: 0;
   grid-auto-flow: column;
   scroll-behavior: auto;
-  overflow-y: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
@@ -35,6 +38,9 @@
 }
 
 .carousel-button {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 auto;
   background: none;
   margin: 0 0.625rem;
   border: none;
