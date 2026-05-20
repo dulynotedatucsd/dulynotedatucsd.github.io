@@ -41,26 +41,8 @@
 }
 
 .faq-grid {
-  display: grid;
+  @include mixins.responsive-grid(1, 1, 2, 2, 3);
   gap: 30px;
-
-    @include mixins.breakpoint(xs) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  @include mixins.breakpoint(sm) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  @include mixins.breakpoint(md) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @include mixins.breakpoint(lg) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @include mixins.breakpoint(xl) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .faq-question {
@@ -79,11 +61,8 @@
   margin: auto;
   text-align: center;
 
-  display: flex;
+  @include mixins.flex-center;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .faq-header {
@@ -95,10 +74,8 @@
 }
 
 .faq-redirect {
-  display: flex;
+  @include mixins.flex-center;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -119,7 +96,7 @@ h2 {
 }
 
 a {
-  color: white;
+  color: colors.$PRIMARY_COLOR;
 }
 
 .center-image {
@@ -138,12 +115,12 @@ a {
   font-weight: 500;
   padding-top: 25px;
 }
+
 .row {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   gap: 20px;
   transition: flex-direction 0.4s ease;
-
 }
 
 .column {
@@ -156,9 +133,9 @@ a {
   margin-bottom: 24;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .row {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
 

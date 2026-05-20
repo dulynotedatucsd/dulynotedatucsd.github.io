@@ -1,7 +1,7 @@
 <div class="carousel-container music-carousel">
   <button class="carousel-button" id="prevBtn">&#9001;</button>
   <div class="carousel" id="musicCarousel">
-    {{ range .Site.Data.carousels.music }}
+    {{ range hugo.Data.carousels.music }}
       <div class="music-container">
         {{ $image := resources.Get (path.Join "images/music" .image )}}
         {{ $image := $image.Process "webp fill 500x300 center" }}

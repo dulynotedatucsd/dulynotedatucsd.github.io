@@ -1,5 +1,5 @@
 baseURL = 'https://dulynotedatucsd.github.io/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Duly Noted'
 
 disableKinds = ["taxonomy"]
@@ -19,6 +19,7 @@ enableRobotsTXT = true
 
 [params.auditions]
     status = "CLOSED UNTIL FALL 2026"
+    calendly_url = ""
 
 [params.social.instagram]
     handle = "@dulynotedatucsd"

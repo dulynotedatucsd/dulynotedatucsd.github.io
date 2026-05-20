@@ -5,33 +5,23 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   transform: translate(calc(50vw - 50%));
   background: linear-gradient(
       to right,
-      #ffffff00,
-      rgba(255,255,255,0.25) 25% 75%,
-      rgba(255,255,255,0));
+      colors.$PRIMARY_COLOR_00,
+      colors.$PRIMARY_COLOR_25 25% 75%,
+      colors.$PRIMARY_COLOR_00);
   border-radius: 30px;
   text-align: center;
   margin-top: 25px;
   z-index: 100000000;
 
-  // Show on tablet and desktop
-  @include mixins.phone-media {
-    display: none;
-  }
-
-  @include mixins.tablet-media {
-    display: flex;
-  }
-
-  @include mixins.desktop-media {
-    display: flex;
-  }
+  @include mixins.show-on-tablet-desktop;
 }
 
-.topnav a{
+.topnav a {
   font-size: 0.75rem;
   border: 1px solid colors.$PRIMARY_COLOR;
   padding-top: 30px;
@@ -39,18 +29,14 @@
   padding: 15px;
   margin: 0 20px;
   text-decoration: none;
-  color: white;
-  transition-property: background-color, color;
-  transition-duration: 300ms;
-  transition-timing-function: ease-in;
+  color: colors.$PRIMARY_COLOR;
+  @include mixins.transition-colors;
   text-align: center;
   transition: margin 0.8s ease;
 
   &:hover {
     background-color: colors.$SECONDARY_COLOR;
-    transition-property: background-color;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in;
+    @include mixins.transition-colors;
   }
 
   @media (max-width: 1000px) {
@@ -68,11 +54,10 @@
   }
 
   @media (max-width: 600px) {
-    margin: 0 0px;
+    margin: 0;
   }
 }
 
-// Mobile navigation
 .mobile-nav {
   position: fixed;
   top: 0;
@@ -85,17 +70,7 @@
   transition: left 0.3s ease;
   z-index: 100000001;
 
-  @include mixins.phone-media {
-    display: flex;
-  }
-
-  @include mixins.tablet-media {
-    display: none;
-  }
-
-  @include mixins.desktop-media {
-    display: none;
-  }
+  @include mixins.show-on-phone(flex);
 
   &.active {
     left: 0;
@@ -105,12 +80,11 @@
     }
   }
 
-
   a {
     color: colors.$BACKGROUND_COLOR;
     text-decoration: none;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid colors.$PRIMARY_COLOR_20;
     font-size: 1rem;
 
     &:hover {
@@ -121,7 +95,6 @@
   }
 }
 
-// Hamburger menu
 .hamburger {
   position: fixed;
   top: 25px;
@@ -133,27 +106,5 @@
   padding: 10px 15px;
   border-radius: 5px;
 
-  @include mixins.phone-media {
-    display: block;
-  }
-
-  @include mixins.tablet-media {
-    display: none;
-  }
-
-  @include mixins.desktop-media {
-    display: none;
-  }
-
-  // Show only on mobile
-  // @media (min-width: 768px) {
-  //   display: none;
-  // }
-
-  // Hide on tablet/desktop
-  // @media (max-width: 767px) {
-  //   display: block;
-  // }
+  @include mixins.show-on-phone;
 }
-
-// TODO: Page Button

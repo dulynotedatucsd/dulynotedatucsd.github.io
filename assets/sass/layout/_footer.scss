@@ -1,7 +1,7 @@
 @use "abstracts/colors";
 
 .footer {
-    background-color: white;
+    background-color: colors.$PRIMARY_COLOR;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;

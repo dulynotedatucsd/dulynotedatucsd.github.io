@@ -1,5 +1,8 @@
 <ol class="audition-list">
-  {{ range .Site.Data.auditions.steps }}
-    {{ partial "auditions/step.html" . }}
+  {{ range hugo.Data.auditions.steps }}
+    {{ partial "auditions/step.html" (dict
+      "step" .
+      "site" $.Site
+    ) }}
   {{ end }}
 </ol>
