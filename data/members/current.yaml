@@ -3,14 +3,17 @@
     - name: "Evelyn Sugapong"
       voice: "Alto"
       major: "Cognitive Science: Design and Interaction"
+      path: Evelyn_Sugapong.png
     
     - name: "Lydia Thomas"
       voice: "Alto"
       major: "Chemical Engineering"
+      path: Lydia_Thomas.png
 
     - name: "Joshua Hsu"
       voice: "Bass"
       major: "Cognitive Science"
+      path: Joshua_Hsu.png
 
 - year: Sophomores
   members:
@@ -22,13 +25,15 @@
     - name: "Chazaiah Johnson"
       voice: "Tenor & Beatbox"
       major: "Theater"
+      path: Chazaiah_Johnson.png
 
     - name: Emery Holmer
       voice: "Alto"
       major: "Applied Math"
+      path: Emery_Holmer.png
 
     - name: "Emilio Roque"
-      voice: "Baritone"
+      voice: "Baritone & Beatbox"
       major: "Political Science: Public Law"
       path: Emilio_Roque.png
 
@@ -41,6 +46,7 @@
     - name: "Hailey Williams"
       voice: "Soprano"
       major: "Sociology: Law and Society/Urban Sutdies and Planning"
+      path: Hailey_Williams.png
     
     - name: "Tavishi Raghunathan"
       voice: "Soprano"
@@ -60,7 +66,7 @@
       path: "Andrew_Jung.png"
 
     - name: "Jesse Wu"
-      voice: "Bass"
+      voice: "Bass & Beatbox"
       major: "Political Science"
       minor: "Japanese Studies"
       path: Jesse_Wu.png
