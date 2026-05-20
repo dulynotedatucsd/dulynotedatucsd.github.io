@@ -1,3 +1,5 @@
+@use "colors";
+
 @mixin no-drag {
   & {
     -webkit-user-drag: none;
@@ -15,6 +17,47 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition-colors($duration: 300ms) {
+  transition-property: background-color, color;
+  transition-duration: $duration;
+  transition-timing-function: ease-in;
+}
+
+@mixin hover-invert {
+  background-color: colors.$PRIMARY_COLOR;
+  color: colors.$BACKGROUND_COLOR;
+}
+
+@mixin responsive-grid($xs, $sm, $md, $lg, $xl) {
+  display: grid;
+
+  @include breakpoint(xs) {
+    grid-template-columns: repeat($xs, 1fr);
+  }
+
+  @include breakpoint(sm) {
+    grid-template-columns: repeat($sm, 1fr);
+  }
+
+  @include breakpoint(md) {
+    grid-template-columns: repeat($md, 1fr);
+  }
+
+  @include breakpoint(lg) {
+    grid-template-columns: repeat($lg, 1fr);
+  }
+
+  @include breakpoint(xl) {
+    grid-template-columns: repeat($xl, 1fr);
   }
 }
 

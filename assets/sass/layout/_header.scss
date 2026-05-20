@@ -9,9 +9,9 @@
   transform: translate(calc(50vw - 50%));
   background: linear-gradient(
       to right,
-      #ffffff00,
-      rgba(255,255,255,0.25) 25% 75%,
-      rgba(255,255,255,0));
+      colors.$PRIMARY_COLOR_00,
+      colors.$PRIMARY_COLOR_25 25% 75%,
+      colors.$PRIMARY_COLOR_00);
   border-radius: 30px;
   text-align: center;
   margin-top: 25px;
@@ -39,18 +39,14 @@
   padding: 15px;
   margin: 0 20px;
   text-decoration: none;
-  color: white;
-  transition-property: background-color, color;
-  transition-duration: 300ms;
-  transition-timing-function: ease-in;
+  color: colors.$PRIMARY_COLOR;
+  @include mixins.transition-colors;
   text-align: center;
   transition: margin 0.8s ease;
 
   &:hover {
     background-color: colors.$SECONDARY_COLOR;
-    transition-property: background-color;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in;
+    @include mixins.transition-colors;
   }
 
   @media (max-width: 1000px) {
@@ -110,7 +106,7 @@
     color: colors.$BACKGROUND_COLOR;
     text-decoration: none;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid colors.$PRIMARY_COLOR_20;
     font-size: 1rem;
 
     &:hover {
