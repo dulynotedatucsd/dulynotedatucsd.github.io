@@ -1,43 +1,35 @@
-- name: Cedric-James David
+- name: Allison Wang
   role: President
-  path: Cedric-James_David.png
+  path: Allison_Wang.png
 
-- name: Emma Kalway
+- name: Emilio Roque
   role: President
-  path: Emma_Kalway.png
+  path: Emilio_Roque.png
 
 - name: Tavishi Raghunathan
   role: Music Director
   path: Tavishi_Raghunathan.png
 
-- name: Apolo Madrigal
+- name: Lydia Thomas
   role: Music Director
-  path: Apolo_Madrigal.png
+  path: Lydia_Thomas.png
 
-- name: Lee
+- name: Evelyn Sugapong
   role: Performance Director
-  path: Lee.png
+  path: Evelyn_Sugapong.png
 
-- name: Nina Ardalan
+- name: Isaac Kim
   role: Performance Director
-  path: Nina_Ardalan.png
+  path: Isaac_Kim.png
 
 - name: Isaac Kim
   role: Treasurtary
   path: Isaac_Kim.png
 
-- name: Linnea Cooley
+- name: Joshua Hsu
   role: Social Chair
-  path: Linnea_Cooley.png
+  path: Joshua_Hsu.png
 
 - name: Emery Holmer
   role: Public Relations Chair
   path: Emery_Holmer.png
-
-- name: Evelyn Sugapong
-  role: Public Relations Chair
-  path: Evelyn_Sugapong.png
-
-- name: Lydia Thomas
-  role: Public Relations Chair
-  path: Lydia_Thomas.png

@@ -18,8 +18,8 @@ enableRobotsTXT = true
     copyright_year = "2026"
 
 [params.auditions]
-    status = "CLOSED UNTIL FALL 2026"
-    calendly_url = ""
+    status = "OPEN FOR FALL 2026"
+    calendly_url = "https://calendly.com/dulynotedatucsd/duly-noted-fall-26-auditions"
 
 [params.social.instagram]
     handle = "@dulynotedatucsd"

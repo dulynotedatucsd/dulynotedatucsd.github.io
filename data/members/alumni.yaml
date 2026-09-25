@@ -239,3 +239,32 @@
   voice: "Bass & Beatbox"
   class: "2025"
   path: Derek_Oyama.png
+
+- name: "Cedric-James David"
+  voice: "Baritone"
+  class: "2026"
+  path: Cedric-James_David.png
+- name: "Emma Kalway"
+  voice: "Mezzo"
+  class: "2026"
+  path: Emma_Kalway.png
+- name: "Lee"
+  voice: "Baritone"
+  class: "2026"
+  path: Lee.png
+- name: "Nina Ardalan"
+  voice: "Mezzo & Beatbox"
+  class: "2026"
+  path: Nina_Ardalan.png
+- name: "Linnea Cooley"
+  voice: "Mezzo"
+  class: "2026"
+  path: Linnea_Cooley.png
+- name: "Apolo Madrigal"
+  voice: "Tenor & Beatbox"
+  class: "2026"
+  path: Apolo_Madrigal.png
+- name: "Chazaiah Johnson"
+  voice: "Tenor & Beatbox"
+  class: "2026"
+  path: Chazaiah_Johnson.png

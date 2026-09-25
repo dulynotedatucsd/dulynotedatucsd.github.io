@@ -1,4 +1,4 @@
-- year: Freshmen
+- year: Sophomores
   members:
     - name: "Evelyn Sugapong"
       voice: "Alto"
@@ -15,18 +15,8 @@
       major: "Cognitive Science"
       path: Joshua_Hsu.png
 
-- year: Sophomores
+- year: Juniors
   members:
-    - name: "Apolo Madrigal"
-      voice: "Tenor & Beatbox"
-      major: "Political Science"
-      path: Apolo_Madrigal.png
-
-    - name: "Chazaiah Johnson"
-      voice: "Tenor & Beatbox"
-      major: "Theater"
-      path: Chazaiah_Johnson.png
-
     - name: Emery Holmer
       voice: "Alto"
       major: "Applied Math"
@@ -51,13 +41,15 @@
     - name: "Tavishi Raghunathan"
       voice: "Soprano"
       major: "Cognitive Science: Machine Learning & Neural Computation and Cinematic Arts"
+      minor: "Math"
       path: Tavishi_Raghunathan.png
 
-- year: Juniors
+- year: Seniors
   members:
     - name: "Allison Wang"
       voice: "Soprano"
       major: "Computer Science"
+      minor: "Cognitive Science"
       path: Allison_Wang.png
 
     - name: "Andrew Jung"
@@ -70,11 +62,6 @@
       major: "Political Science"
       minor: "Japanese Studies"
       path: Jesse_Wu.png
-
-    - name: "Linnea Cooley"
-      voice: "Mezzo"
-      major: "Marine Biology"
-      path: Linnea_Cooley.png
 
 - year: Seniors
   members:
