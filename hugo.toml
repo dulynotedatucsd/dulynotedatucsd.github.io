@@ -14,7 +14,7 @@ enableRobotsTXT = true
     quality = 75
 
 [params]
-    academic_year = "'25-'26"
+    academic_year = "'26-'27"
     copyright_year = "2026"
 
 [params.auditions]

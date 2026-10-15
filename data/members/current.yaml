@@ -3,46 +3,46 @@
     - name: "Evelyn Sugapong"
       voice: "Alto"
       major: "Cognitive Science: Design and Interaction"
-      path: Evelyn_Sugapong.png
+      path: Evelyn_Sugapong.jpg
     
     - name: "Lydia Thomas"
       voice: "Alto"
       major: "Chemical Engineering"
-      path: Lydia_Thomas.png
+      path: Lydia_Thomas.jpg
 
     - name: "Joshua Hsu"
       voice: "Bass"
       major: "Cognitive Science"
-      path: Joshua_Hsu.png
+      path: Joshua_Hsu.jpg
 
 - year: Juniors
   members:
     - name: Emery Holmer
       voice: "Alto"
       major: "Applied Math"
-      path: Emery_Holmer.png
+      path: Emery_Holmer.jpg
 
     - name: "Emilio Roque"
       voice: "Baritone & Beatbox"
       major: "Political Science: Public Law"
-      path: Emilio_Roque.png
+      path: Emilio_Roque.jpg
 
     - name: "Isaac Kim"
       voice: "Tenor"
       major: "Applied Math and Econ"
       minor: "Philosophy"
-      path: Isaac_Kim.png
+      path: Isaac_Kim.jpg
 
     - name: "Hailey Williams"
       voice: "Soprano"
       major: "Sociology: Law and Society/Urban Studies and Planning"
-      path: Hailey_Williams.png
+      path: Hailey_Williams.jpg
     
     - name: "Tavishi Raghunathan"
       voice: "Soprano"
       major: "Cognitive Science: Machine Learning & Neural Computation and Cinematic Arts"
       minor: "Math"
-      path: Tavishi_Raghunathan.png
+      path: Tavishi_Raghunathan.jpg
 
 - year: Seniors
   members:
@@ -50,15 +50,15 @@
       voice: "Soprano"
       major: "Computer Science"
       minor: "Cognitive Science"
-      path: Allison_Wang.png
+      path: Allison_Wang.jpg
 
     - name: "Andrew Jung"
       voice: "Bass"
       major: "Electrical Engineering"
-      path: "Andrew_Jung.png"
+      path: "Andrew_Jung.jpg"
 
     - name: "Jesse Wu"
       voice: "Bass & Beatbox"
       major: "Political Science"
       minor: "Japanese Studies"
-      path: Jesse_Wu.png
+      path: Jesse_Wu.jpg
